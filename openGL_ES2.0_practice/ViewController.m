@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "MDOpenGLBaseController.h"
+#import "MDGPUImageBaseController.h"
 
 @interface ViewController ()
 
@@ -14,16 +16,27 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
+- (IBAction)didClickOpenGLBtn:(id)sender
+{
+    MDOpenGLBaseController *openGLCtr = [[MDOpenGLBaseController alloc] init];
+    
+    UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:openGLCtr];
+    [self presentViewController:navCtr animated:YES completion:nil];
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)didClickGPUImageBtn:(id)sender
+{
+    MDGPUImageBaseController *gpuImageCtr = [[MDGPUImageBaseController alloc] init];
+    
+    UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:gpuImageCtr];
+    [self presentViewController:navCtr animated:YES completion:nil];
+}
 
 @end
