@@ -12,6 +12,7 @@
 #import "MDGPUImage_004.h"
 #import "MDGPUimage_005.h"
 #import "MDGPUImage_006.h"
+#import "MDGPUImage_007.h"
 
 const static NSString * const kClassName = @"kClassName";
 const static NSString * const kTitleName = @"kTitleName";
@@ -82,11 +83,16 @@ const static NSString * const kTitleName = @"kTitleName";
     [dict5 setObject:@"MDGPUImage_006" forKey:kClassName];
     [dict5 setObject:@"GPUImage详细解析（六）-用视频做视频水印" forKey:kTitleName];
     
+    NSMutableDictionary *dict6 = [NSMutableDictionary dictionary];
+    [dict6 setObject:@"MDGPUImage_007" forKey:kClassName];
+    [dict6 setObject:@"GPUImage详细解析（七）文字水印和动态图像水印" forKey:kTitleName];
+    
     [self.datas addObject:dict1];
     [self.datas addObject:dict2];
     [self.datas addObject:dict3];
     [self.datas addObject:dict4];
     [self.datas addObject:dict5];
+    [self.datas addObject:dict6];
 }
 
 #pragma mark - UITableViewDataSource

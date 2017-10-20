@@ -15,6 +15,7 @@
 		E74134C71F99D62000D49E69 /* MDGPUImage_006.m in Sources */ = {isa = PBXBuildFile; fileRef = E74134C61F99D62000D49E69 /* MDGPUImage_006.m */; };
 		E74134CE1F99F31B00D49E69 /* MDGPUimage_005.m in Sources */ = {isa = PBXBuildFile; fileRef = E74134CD1F99F31B00D49E69 /* MDGPUimage_005.m */; };
 		E74134D31F99FB0300D49E69 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = E74134D21F99FB0300D49E69 /* face.png */; };
+		E75FFE5F1F9A116C0064410A /* MDGPUImage_007.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FFE5E1F9A116C0064410A /* MDGPUImage_007.m */; };
 		E78E78521F8F0DD10051CDCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78E78511F8F0DD10051CDCA /* main.m */; };
 		E78E78551F8F0DD10051CDCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78E78541F8F0DD10051CDCA /* AppDelegate.m */; };
 		E78E78581F8F0DD10051CDCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78E78571F8F0DD10051CDCA /* ViewController.m */; };
@@ -86,6 +87,8 @@
 		E74134CC1F99F31B00D49E69 /* MDGPUimage_005.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUimage_005.h; sourceTree = "<group>"; };
 		E74134CD1F99F31B00D49E69 /* MDGPUimage_005.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUimage_005.m; sourceTree = "<group>"; };
 		E74134D21F99FB0300D49E69 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		E75FFE5D1F9A116C0064410A /* MDGPUImage_007.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImage_007.h; sourceTree = "<group>"; };
+		E75FFE5E1F9A116C0064410A /* MDGPUImage_007.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_007.m; sourceTree = "<group>"; };
 		E78E784D1F8F0DD10051CDCA /* openGL_ES2.0_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openGL_ES2.0_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78E78511F8F0DD10051CDCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E78E78531F8F0DD10051CDCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -413,6 +416,8 @@
 				E74134CD1F99F31B00D49E69 /* MDGPUimage_005.m */,
 				E74134C51F99D62000D49E69 /* MDGPUImage_006.h */,
 				E74134C61F99D62000D49E69 /* MDGPUImage_006.m */,
+				E75FFE5D1F9A116C0064410A /* MDGPUImage_007.h */,
+				E75FFE5E1F9A116C0064410A /* MDGPUImage_007.m */,
 			);
 			name = gpuImage_sample;
 			sourceTree = "<group>";
@@ -660,6 +665,7 @@
 				E78E78581F8F0DD10051CDCA /* ViewController.m in Sources */,
 				E7C1627B1F945789008C0027 /* MDGLPaintController.m in Sources */,
 				E74134CE1F99F31B00D49E69 /* MDGPUimage_005.m in Sources */,
+				E75FFE5F1F9A116C0064410A /* MDGPUImage_007.m in Sources */,
 				E78E78AF1F8F69B60051CDCA /* GLESUtils.m in Sources */,
 				E78E78971F8F211C0051CDCA /* MDLearnView_002.m in Sources */,
 				E7138E061F98B60400D5A2B5 /* MDGPUImage_004.m in Sources */,
