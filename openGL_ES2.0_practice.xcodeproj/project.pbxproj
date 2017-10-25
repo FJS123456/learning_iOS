@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		122FD14194E7B1DF34DA2C93 /* libPods-openGL_ES2.0_practice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6E877C7DED4DCFC9227CD9 /* libPods-openGL_ES2.0_practice.a */; };
 		E7138DF21F97257D00D5A2B5 /* MDGPUImage_002.m in Sources */ = {isa = PBXBuildFile; fileRef = E7138DF11F97257D00D5A2B5 /* MDGPUImage_002.m */; };
 		E7138DFF1F9889F400D5A2B5 /* MDGPUImage_003.m in Sources */ = {isa = PBXBuildFile; fileRef = E7138DFE1F9889F400D5A2B5 /* MDGPUImage_003.m */; };
 		E7138E021F988AA200D5A2B5 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E7138E011F988AA200D5A2B5 /* GPUImageBeautifyFilter.m */; };
 		E7138E061F98B60400D5A2B5 /* MDGPUImage_004.m in Sources */ = {isa = PBXBuildFile; fileRef = E7138E051F98B60400D5A2B5 /* MDGPUImage_004.m */; };
+		E72D9D271F9DBFC5007258EB /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72D9D251F9DBFC5007258EB /* CanvasView.m */; };
+		E72D9D511F9DDA2A007258EB /* MDAVFoundationBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72D9D501F9DDA2A007258EB /* MDAVFoundationBaseController.m */; };
 		E74134C71F99D62000D49E69 /* MDGPUImage_006.m in Sources */ = {isa = PBXBuildFile; fileRef = E74134C61F99D62000D49E69 /* MDGPUImage_006.m */; };
 		E74134CE1F99F31B00D49E69 /* MDGPUimage_005.m in Sources */ = {isa = PBXBuildFile; fileRef = E74134CD1F99F31B00D49E69 /* MDGPUimage_005.m */; };
 		E74134D31F99FB0300D49E69 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = E74134D21F99FB0300D49E69 /* face.png */; };
+		E75B7DA81F9A1976000C77C2 /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = E75B7DA71F9A1976000C77C2 /* watermark.png */; };
+		E75B7DAC1F9B8B67000C77C2 /* MDGPUImage_008.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B7DAB1F9B8B67000C77C2 /* MDGPUImage_008.m */; };
+		E75B7DB11F9C6335000C77C2 /* MDGPUImage_009.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B7DB01F9C6335000C77C2 /* MDGPUImage_009.m */; };
+		E75B7DB41F9C706C000C77C2 /* MDGPUImage_010.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B7DB31F9C706C000C77C2 /* MDGPUImage_010.m */; };
 		E75FFE5F1F9A116C0064410A /* MDGPUImage_007.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FFE5E1F9A116C0064410A /* MDGPUImage_007.m */; };
 		E78E78521F8F0DD10051CDCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78E78511F8F0DD10051CDCA /* main.m */; };
 		E78E78551F8F0DD10051CDCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78E78541F8F0DD10051CDCA /* AppDelegate.m */; };
@@ -82,11 +87,22 @@
 		E7138E011F988AA200D5A2B5 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
 		E7138E041F98B60400D5A2B5 /* MDGPUImage_004.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImage_004.h; sourceTree = "<group>"; };
 		E7138E051F98B60400D5A2B5 /* MDGPUImage_004.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_004.m; sourceTree = "<group>"; };
+		E72D9D251F9DBFC5007258EB /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		E72D9D261F9DBFC5007258EB /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		E72D9D4F1F9DDA2A007258EB /* MDAVFoundationBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAVFoundationBaseController.h; sourceTree = "<group>"; };
+		E72D9D501F9DDA2A007258EB /* MDAVFoundationBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAVFoundationBaseController.m; sourceTree = "<group>"; };
 		E74134C51F99D62000D49E69 /* MDGPUImage_006.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImage_006.h; sourceTree = "<group>"; };
 		E74134C61F99D62000D49E69 /* MDGPUImage_006.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_006.m; sourceTree = "<group>"; };
 		E74134CC1F99F31B00D49E69 /* MDGPUimage_005.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUimage_005.h; sourceTree = "<group>"; };
 		E74134CD1F99F31B00D49E69 /* MDGPUimage_005.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUimage_005.m; sourceTree = "<group>"; };
 		E74134D21F99FB0300D49E69 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		E75B7DA71F9A1976000C77C2 /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark.png; sourceTree = "<group>"; };
+		E75B7DAA1F9B8B67000C77C2 /* MDGPUImage_008.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImage_008.h; sourceTree = "<group>"; };
+		E75B7DAB1F9B8B67000C77C2 /* MDGPUImage_008.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_008.m; sourceTree = "<group>"; };
+		E75B7DAF1F9C6335000C77C2 /* MDGPUImage_009.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImage_009.h; sourceTree = "<group>"; };
+		E75B7DB01F9C6335000C77C2 /* MDGPUImage_009.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_009.m; sourceTree = "<group>"; };
+		E75B7DB21F9C706C000C77C2 /* MDGPUImage_010.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImage_010.h; sourceTree = "<group>"; };
+		E75B7DB31F9C706C000C77C2 /* MDGPUImage_010.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_010.m; sourceTree = "<group>"; };
 		E75FFE5D1F9A116C0064410A /* MDGPUImage_007.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImage_007.h; sourceTree = "<group>"; };
 		E75FFE5E1F9A116C0064410A /* MDGPUImage_007.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_007.m; sourceTree = "<group>"; };
 		E78E784D1F8F0DD10051CDCA /* openGL_ES2.0_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openGL_ES2.0_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,7 +176,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				122FD14194E7B1DF34DA2C93 /* libPods-openGL_ES2.0_practice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +211,41 @@
 				FC6E877C7DED4DCFC9227CD9 /* libPods-openGL_ES2.0_practice.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72D9D371F9DC16A007258EB /* lib  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "lib ";
+			sourceTree = "<group>";
+		};
+		E72D9D4D1F9DD9DE007258EB /* AVFoundation_util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AVFoundation_util;
+			sourceTree = "<group>";
+		};
+		E72D9D4E1F9DD9F9007258EB /* AVFoundation_resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AVFoundation_resource;
+			sourceTree = "<group>";
+		};
+		E72D9D521F9DDA34007258EB /* AVFoundation_sample */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AVFoundation_sample;
+			sourceTree = "<group>";
+		};
+		E72D9D531F9DDA48007258EB /* AVFoundation_views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AVFoundation_views;
 			sourceTree = "<group>";
 		};
 		E78E78441F8F0DD10051CDCA = {
@@ -264,6 +314,7 @@
 		E78E78861F8F0E5F0051CDCA /* sample */ = {
 			isa = PBXGroup;
 			children = (
+				E72D9D521F9DDA34007258EB /* AVFoundation_sample */,
 				E7C162A41F94CBA7008C0027 /* gpuImage_sample */,
 				E7C162A31F94CB8F008C0027 /* openGL_sample */,
 			);
@@ -281,6 +332,8 @@
 				E78E78571F8F0DD10051CDCA /* ViewController.m */,
 				E7FFC8A81F94DDEC00D86470 /* MDGPUImageBaseController.h */,
 				E7FFC8A91F94DDEC00D86470 /* MDGPUImageBaseController.m */,
+				E72D9D4F1F9DDA2A007258EB /* MDAVFoundationBaseController.h */,
+				E72D9D501F9DDA2A007258EB /* MDAVFoundationBaseController.m */,
 			);
 			name = base;
 			sourceTree = "<group>";
@@ -299,6 +352,7 @@
 		E78E78891F8F0E990051CDCA /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				E72D9D4E1F9DD9F9007258EB /* AVFoundation_resource */,
 				E7C162A21F94CB80008C0027 /* gpuImage_resource */,
 				E7C162A11F94CB65008C0027 /* openGL_resource */,
 			);
@@ -308,6 +362,7 @@
 		E78E78941F8F20E10051CDCA /* views */ = {
 			isa = PBXGroup;
 			children = (
+				E72D9D531F9DDA48007258EB /* AVFoundation_views */,
 				E7C162A61F94CBCC008C0027 /* gpuImage_views */,
 				E7C162A51F94CBBB008C0027 /* openGL_views */,
 			);
@@ -330,6 +385,8 @@
 		E78E78A71F8F69980051CDCA /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				E72D9D371F9DC16A007258EB /* lib  */,
+				E72D9D4D1F9DD9DE007258EB /* AVFoundation_util */,
 				E7C162A01F94CB57008C0027 /* gpuImage_util */,
 				E7C1629F1F94CB41008C0027 /* openGL_util */,
 			);
@@ -384,6 +441,7 @@
 			children = (
 				E7901EE61F99FE3000D35249 /* abc.mp4 */,
 				E74134D21F99FB0300D49E69 /* face.png */,
+				E75B7DA71F9A1976000C77C2 /* watermark.png */,
 			);
 			name = gpuImage_resource;
 			sourceTree = "<group>";
@@ -418,6 +476,12 @@
 				E74134C61F99D62000D49E69 /* MDGPUImage_006.m */,
 				E75FFE5D1F9A116C0064410A /* MDGPUImage_007.h */,
 				E75FFE5E1F9A116C0064410A /* MDGPUImage_007.m */,
+				E75B7DAA1F9B8B67000C77C2 /* MDGPUImage_008.h */,
+				E75B7DAB1F9B8B67000C77C2 /* MDGPUImage_008.m */,
+				E75B7DAF1F9C6335000C77C2 /* MDGPUImage_009.h */,
+				E75B7DB01F9C6335000C77C2 /* MDGPUImage_009.m */,
+				E75B7DB21F9C706C000C77C2 /* MDGPUImage_010.h */,
+				E75B7DB31F9C706C000C77C2 /* MDGPUImage_010.m */,
 			);
 			name = gpuImage_sample;
 			sourceTree = "<group>";
@@ -438,6 +502,8 @@
 		E7C162A61F94CBCC008C0027 /* gpuImage_views */ = {
 			isa = PBXGroup;
 			children = (
+				E72D9D261F9DBFC5007258EB /* CanvasView.h */,
+				E72D9D251F9DBFC5007258EB /* CanvasView.m */,
 				E7138E001F988AA200D5A2B5 /* GPUImageBeautifyFilter.h */,
 				E7138E011F988AA200D5A2B5 /* GPUImageBeautifyFilter.m */,
 			);
@@ -558,6 +624,7 @@
 			files = (
 				E74134D31F99FB0300D49E69 /* face.png in Resources */,
 				E7C1628D1F9458F9008C0027 /* Blue.png in Resources */,
+				E75B7DA81F9A1976000C77C2 /* watermark.png in Resources */,
 				E78E78601F8F0DD10051CDCA /* LaunchScreen.storyboard in Resources */,
 				E78E789A1F8F23430051CDCA /* shaderv_002.vsh in Resources */,
 				E7C162931F945904008C0027 /* Particle.png in Resources */,
@@ -656,6 +723,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E72D9D511F9DDA2A007258EB /* MDAVFoundationBaseController.m in Sources */,
 				E78E78A21F8F62E40051CDCA /* MDLearnView_003.m in Sources */,
 				E7138E021F988AA200D5A2B5 /* GPUImageBeautifyFilter.m in Sources */,
 				E78E78851F8F0E310051CDCA /* MDOpenGLBaseController.m in Sources */,
@@ -664,13 +732,17 @@
 				E78E78AE1F8F69B60051CDCA /* GLESMath.c in Sources */,
 				E78E78581F8F0DD10051CDCA /* ViewController.m in Sources */,
 				E7C1627B1F945789008C0027 /* MDGLPaintController.m in Sources */,
+				E75B7DAC1F9B8B67000C77C2 /* MDGPUImage_008.m in Sources */,
 				E74134CE1F99F31B00D49E69 /* MDGPUimage_005.m in Sources */,
 				E75FFE5F1F9A116C0064410A /* MDGPUImage_007.m in Sources */,
+				E75B7DB41F9C706C000C77C2 /* MDGPUImage_010.m in Sources */,
 				E78E78AF1F8F69B60051CDCA /* GLESUtils.m in Sources */,
 				E78E78971F8F211C0051CDCA /* MDLearnView_002.m in Sources */,
 				E7138E061F98B60400D5A2B5 /* MDGPUImage_004.m in Sources */,
 				E7138DFF1F9889F400D5A2B5 /* MDGPUImage_003.m in Sources */,
+				E75B7DB11F9C6335000C77C2 /* MDGPUImage_009.m in Sources */,
 				E78E788E1F8F0F9E0051CDCA /* MDESEentrance_001.m in Sources */,
+				E72D9D271F9DBFC5007258EB /* CanvasView.m in Sources */,
 				E78E78931F8F1F810051CDCA /* MDESEentrance_002.m in Sources */,
 				E78E78551F8F0DD10051CDCA /* AppDelegate.m in Sources */,
 				E7C162811F945883008C0027 /* SoundEffect.m in Sources */,
@@ -828,7 +900,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 36WT396TPZ;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/openGL_ES2.0_practice",
+				);
 				INFOPLIST_FILE = openGL_ES2.0_practice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "momo.openGL-ES2-0-practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -841,7 +919,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 36WT396TPZ;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/openGL_ES2.0_practice",
+				);
 				INFOPLIST_FILE = openGL_ES2.0_practice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "momo.openGL-ES2-0-practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";

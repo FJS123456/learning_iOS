@@ -13,6 +13,9 @@
 #import "MDGPUimage_005.h"
 #import "MDGPUImage_006.h"
 #import "MDGPUImage_007.h"
+#import "MDGPUImage_008.h"
+#import "MDGPUImage_009.h"
+#import "MDGPUImage_010.h"
 
 const static NSString * const kClassName = @"kClassName";
 const static NSString * const kTitleName = @"kTitleName";
@@ -87,12 +90,27 @@ const static NSString * const kTitleName = @"kTitleName";
     [dict6 setObject:@"MDGPUImage_007" forKey:kClassName];
     [dict6 setObject:@"GPUImage详细解析（七）文字水印和动态图像水印" forKey:kTitleName];
     
+    NSMutableDictionary *dict7 = [NSMutableDictionary dictionary];
+    [dict7 setObject:@"MDGPUImage_008" forKey:kClassName];
+    [dict7 setObject:@"GPUImage详细解析（八）视频合并混音" forKey:kTitleName];
+    
+    NSMutableDictionary *dict8 = [NSMutableDictionary dictionary];
+    [dict8 setObject:@"MDGPUImage_009" forKey:kClassName];
+    [dict8 setObject:@"GPUImage详细解析（九）图像的输入输出和滤镜通道" forKey:kTitleName];
+    
+    NSMutableDictionary *dict9 = [NSMutableDictionary dictionary];
+    [dict9 setObject:@"MDGPUImage_010" forKey:kClassName];
+    [dict9 setObject:@"GPUImage详细解析（十一）美颜+人脸识别" forKey:kTitleName];
+    
     [self.datas addObject:dict1];
     [self.datas addObject:dict2];
     [self.datas addObject:dict3];
     [self.datas addObject:dict4];
     [self.datas addObject:dict5];
     [self.datas addObject:dict6];
+    [self.datas addObject:dict7];
+    [self.datas addObject:dict8];
+    [self.datas addObject:dict9];
 }
 
 #pragma mark - UITableViewDataSource

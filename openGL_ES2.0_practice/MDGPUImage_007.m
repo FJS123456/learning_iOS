@@ -80,6 +80,9 @@
     [_filter addTarget:filterView];
     [_filter addTarget:_movieWriter];
     
+    [_movieWriter startRecording];
+    [_movieFile startProcessing];
+    
     CADisplayLink* dlink = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateProgress)];
     [dlink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
     [dlink setPaused:NO];
