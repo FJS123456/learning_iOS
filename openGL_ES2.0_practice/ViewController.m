@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "MDOpenGLBaseController.h"
 #import "MDGPUImageBaseController.h"
+#import "MDOpenGLBookBaseController.h"
+#import "MDBaseFoundationController.h"
 
 @interface ViewController ()
 
@@ -36,6 +38,25 @@
     MDGPUImageBaseController *gpuImageCtr = [[MDGPUImageBaseController alloc] init];
     
     UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:gpuImageCtr];
+    [self presentViewController:navCtr animated:YES completion:nil];
+}
+
+- (IBAction)didClickOpenGLBookBtn:(id)sender
+{
+    MDOpenGLBookBaseController *openGLBookCtr = [[MDOpenGLBookBaseController alloc] init];
+    UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:openGLBookCtr];
+    [self presentViewController:navCtr animated:YES completion:nil];
+}
+
+- (IBAction)didClickMediaPush:(id)sender
+{
+    
+}
+
+- (IBAction)didClickFoundationBtn:(id)sender
+{
+    MDBaseFoundationController *uiFoundationCtr = [[MDBaseFoundationController alloc] init];
+    UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:uiFoundationCtr];
     [self presentViewController:navCtr animated:YES completion:nil];
 }
 
