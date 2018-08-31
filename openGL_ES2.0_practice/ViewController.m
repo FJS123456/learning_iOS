@@ -11,6 +11,7 @@
 #import "MDGPUImageBaseController.h"
 #import "MDOpenGLBookBaseController.h"
 #import "MDBaseFoundationController.h"
+#import "MDMediaBaseController.h"
 
 @interface ViewController ()
 
@@ -50,7 +51,9 @@
 
 - (IBAction)didClickMediaPush:(id)sender
 {
-    
+    MDMediaBaseController *meidaCtr = [[MDMediaBaseController alloc] init];
+    UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:meidaCtr];
+    [self presentViewController:navCtr animated:YES completion:nil];
 }
 
 - (IBAction)didClickFoundationBtn:(id)sender

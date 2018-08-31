@@ -22,6 +22,17 @@
 		E74134C71F99D62000D49E69 /* MDGPUImage_006.m in Sources */ = {isa = PBXBuildFile; fileRef = E74134C61F99D62000D49E69 /* MDGPUImage_006.m */; };
 		E74134CE1F99F31B00D49E69 /* MDGPUimage_005.m in Sources */ = {isa = PBXBuildFile; fileRef = E74134CD1F99F31B00D49E69 /* MDGPUimage_005.m */; };
 		E74134D31F99FB0300D49E69 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = E74134D21F99FB0300D49E69 /* face.png */; };
+		E74997B3213546E200B339D1 /* AWGPUImageVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = E74997B2213546E200B339D1 /* AWGPUImageVideoCamera.m */; };
+		E74997B62136412E00B339D1 /* MDMediaBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74997B52136412E00B339D1 /* MDMediaBaseController.m */; };
+		E74997BA213641B900B339D1 /* MDMediaPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74997B9213641B900B339D1 /* MDMediaPushController.m */; };
+		E74997BC2136441600B339D1 /* camera_switch.png in Resources */ = {isa = PBXBuildFile; fileRef = E74997BB2136441600B339D1 /* camera_switch.png */; };
+		E74997BF2136442100B339D1 /* TestAVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E74997BD2136442100B339D1 /* TestAVCapture.m */; };
+		E74997C22136874C00B339D1 /* AWSWX264Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E74997C12136874C00B339D1 /* AWSWX264Encoder.m */; };
+		E74997C52136876C00B339D1 /* AWSWFaacEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E74997C42136876C00B339D1 /* AWSWFaacEncoder.m */; };
+		E74997D021379AC300B339D1 /* aw_sw_x264_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = E74997C821379AC300B339D1 /* aw_sw_x264_encoder.c */; };
+		E74997D121379AC300B339D1 /* aw_sw_faac_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = E74997CC21379AC300B339D1 /* aw_sw_faac_encoder.c */; };
+		E74997D221379AC300B339D1 /* aw_faac.c in Sources */ = {isa = PBXBuildFile; fileRef = E74997CD21379AC300B339D1 /* aw_faac.c */; };
+		E74997D321379AC300B339D1 /* aw_x264.c in Sources */ = {isa = PBXBuildFile; fileRef = E74997CE21379AC300B339D1 /* aw_x264.c */; };
 		E74D9B3F2043AFCD00F0C84D /* MDOpenGLBookBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74D9B3E2043AFCD00F0C84D /* MDOpenGLBookBaseController.m */; };
 		E75B7DA81F9A1976000C77C2 /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = E75B7DA71F9A1976000C77C2 /* watermark.png */; };
 		E75B7DAC1F9B8B67000C77C2 /* MDGPUImage_008.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B7DAB1F9B8B67000C77C2 /* MDGPUImage_008.m */; };
@@ -87,6 +98,26 @@
 		E7DE91F32122DCE400960AA5 /* MDLayerPracticeController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE91F22122DCE400960AA5 /* MDLayerPracticeController.m */; };
 		E7DE91F82123C8EA00960AA5 /* MDLayerTransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE91F72123C8EA00960AA5 /* MDLayerTransformView.m */; };
 		E7DE91FC2123CB1800960AA5 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE91FB2123CB1800960AA5 /* UIView+Utils.m */; };
+		E7DE926C2126741C00960AA5 /* aw_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = E7DE924C2126741C00960AA5 /* aw_alloc.c */; };
+		E7DE926D2126741C00960AA5 /* aw_array.c in Sources */ = {isa = PBXBuildFile; fileRef = E7DE924E2126741C00960AA5 /* aw_array.c */; };
+		E7DE926E2126741C00960AA5 /* aw_data.c in Sources */ = {isa = PBXBuildFile; fileRef = E7DE92512126741C00960AA5 /* aw_data.c */; };
+		E7DE926F2126741C00960AA5 /* aw_dict.c in Sources */ = {isa = PBXBuildFile; fileRef = E7DE92532126741C00960AA5 /* aw_dict.c */; };
+		E7DE92702126741C00960AA5 /* aw_file.c in Sources */ = {isa = PBXBuildFile; fileRef = E7DE92552126741C00960AA5 /* aw_file.c */; };
+		E7DE92712126741C00960AA5 /* aw_rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = E7DE92572126741C00960AA5 /* aw_rtmp.c */; };
+		E7DE92722126741C00960AA5 /* aw_thread_poll.c in Sources */ = {isa = PBXBuildFile; fileRef = E7DE92592126741C00960AA5 /* aw_thread_poll.c */; };
+		E7DE92772126741C00960AA5 /* aw_encode_flv.c in Sources */ = {isa = PBXBuildFile; fileRef = E7DE92672126741C00960AA5 /* aw_encode_flv.c */; };
+		E7DE92782126741C00960AA5 /* aw_streamer.c in Sources */ = {isa = PBXBuildFile; fileRef = E7DE926A2126741C00960AA5 /* aw_streamer.c */; };
+		E7DE927F212678A900960AA5 /* AWEncoderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE927E212678A900960AA5 /* AWEncoderManager.m */; };
+		E7DE9282212678C400960AA5 /* AWAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE9281212678C400960AA5 /* AWAudioEncoder.m */; };
+		E7DE9285212678DB00960AA5 /* AWEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE9284212678DB00960AA5 /* AWEncoder.m */; };
+		E7DE9288212678E900960AA5 /* AWVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE9287212678E900960AA5 /* AWVideoEncoder.m */; };
+		E7DE928B21267E4500960AA5 /* AWAVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE928A21267E4500960AA5 /* AWAVCapture.m */; };
+		E7DE928E21267E5400960AA5 /* AWAVCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE928D21267E5400960AA5 /* AWAVCaptureManager.m */; };
+		E7DE929121267FD800960AA5 /* AWGPUImageAVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE929021267FD800960AA5 /* AWGPUImageAVCapture.m */; };
+		E7DE929421267FEA00960AA5 /* AWSystemAVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE929321267FEA00960AA5 /* AWSystemAVCapture.m */; };
+		E7DE92972126820700960AA5 /* AWAVConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE92962126820700960AA5 /* AWAVConfig.m */; };
+		E7DE929F2126BD2300960AA5 /* AWHWAACEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE929E2126BD2300960AA5 /* AWHWAACEncoder.m */; };
+		E7DE92A22126BD4000960AA5 /* AWHWH264Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE92A12126BD4000960AA5 /* AWHWH264Encoder.m */; };
 		E7FFC8AA1F94DDEC00D86470 /* MDGPUImageBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FFC8A91F94DDEC00D86470 /* MDGPUImageBaseController.m */; };
 /* End PBXBuildFile section */
 
@@ -159,6 +190,27 @@
 		E74134CC1F99F31B00D49E69 /* MDGPUimage_005.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUimage_005.h; sourceTree = "<group>"; };
 		E74134CD1F99F31B00D49E69 /* MDGPUimage_005.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUimage_005.m; sourceTree = "<group>"; };
 		E74134D21F99FB0300D49E69 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		E74997B1213546E200B339D1 /* AWGPUImageVideoCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWGPUImageVideoCamera.h; sourceTree = "<group>"; };
+		E74997B2213546E200B339D1 /* AWGPUImageVideoCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWGPUImageVideoCamera.m; sourceTree = "<group>"; };
+		E74997B42136412E00B339D1 /* MDMediaBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMediaBaseController.h; sourceTree = "<group>"; };
+		E74997B52136412E00B339D1 /* MDMediaBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMediaBaseController.m; sourceTree = "<group>"; };
+		E74997B8213641B900B339D1 /* MDMediaPushController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMediaPushController.h; sourceTree = "<group>"; };
+		E74997B9213641B900B339D1 /* MDMediaPushController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMediaPushController.m; sourceTree = "<group>"; };
+		E74997BB2136441600B339D1 /* camera_switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_switch.png; sourceTree = "<group>"; };
+		E74997BD2136442100B339D1 /* TestAVCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAVCapture.m; sourceTree = "<group>"; };
+		E74997BE2136442100B339D1 /* TestAVCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAVCapture.h; sourceTree = "<group>"; };
+		E74997C02136874C00B339D1 /* AWSWX264Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSWX264Encoder.h; sourceTree = "<group>"; };
+		E74997C12136874C00B339D1 /* AWSWX264Encoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSWX264Encoder.m; sourceTree = "<group>"; };
+		E74997C32136876C00B339D1 /* AWSWFaacEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSWFaacEncoder.h; sourceTree = "<group>"; };
+		E74997C42136876C00B339D1 /* AWSWFaacEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSWFaacEncoder.m; sourceTree = "<group>"; };
+		E74997C821379AC300B339D1 /* aw_sw_x264_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_sw_x264_encoder.c; sourceTree = "<group>"; };
+		E74997C921379AC300B339D1 /* aw_faac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_faac.h; sourceTree = "<group>"; };
+		E74997CA21379AC300B339D1 /* aw_sw_x264_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_sw_x264_encoder.h; sourceTree = "<group>"; };
+		E74997CB21379AC300B339D1 /* aw_x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_x264.h; sourceTree = "<group>"; };
+		E74997CC21379AC300B339D1 /* aw_sw_faac_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_sw_faac_encoder.c; sourceTree = "<group>"; };
+		E74997CD21379AC300B339D1 /* aw_faac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_faac.c; sourceTree = "<group>"; };
+		E74997CE21379AC300B339D1 /* aw_x264.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_x264.c; sourceTree = "<group>"; };
+		E74997CF21379AC300B339D1 /* aw_sw_faac_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_sw_faac_encoder.h; sourceTree = "<group>"; };
 		E74D9B3D2043AFCC00F0C84D /* MDOpenGLBookBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOpenGLBookBaseController.h; sourceTree = "<group>"; };
 		E74D9B3E2043AFCD00F0C84D /* MDOpenGLBookBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDOpenGLBookBaseController.m; sourceTree = "<group>"; };
 		E75B7DA71F9A1976000C77C2 /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark.png; sourceTree = "<group>"; };
@@ -272,6 +324,49 @@
 		E7DE91FA2123CB1800960AA5 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
 		E7DE91FB2123CB1800960AA5 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
 		E7DE91FD2123CB5A00960AA5 /* MDBaseDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDBaseDefine.h; sourceTree = "<group>"; };
+		E7DE924A2126741C00960AA5 /* aw_all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_all.h; sourceTree = "<group>"; };
+		E7DE924C2126741C00960AA5 /* aw_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_alloc.c; sourceTree = "<group>"; };
+		E7DE924D2126741C00960AA5 /* aw_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_alloc.h; sourceTree = "<group>"; };
+		E7DE924E2126741C00960AA5 /* aw_array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_array.c; sourceTree = "<group>"; };
+		E7DE924F2126741C00960AA5 /* aw_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_array.h; sourceTree = "<group>"; };
+		E7DE92502126741C00960AA5 /* aw_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_common.h; sourceTree = "<group>"; };
+		E7DE92512126741C00960AA5 /* aw_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_data.c; sourceTree = "<group>"; };
+		E7DE92522126741C00960AA5 /* aw_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_data.h; sourceTree = "<group>"; };
+		E7DE92532126741C00960AA5 /* aw_dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_dict.c; sourceTree = "<group>"; };
+		E7DE92542126741C00960AA5 /* aw_dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_dict.h; sourceTree = "<group>"; };
+		E7DE92552126741C00960AA5 /* aw_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_file.c; sourceTree = "<group>"; };
+		E7DE92562126741C00960AA5 /* aw_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_file.h; sourceTree = "<group>"; };
+		E7DE92572126741C00960AA5 /* aw_rtmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_rtmp.c; sourceTree = "<group>"; };
+		E7DE92582126741C00960AA5 /* aw_rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_rtmp.h; sourceTree = "<group>"; };
+		E7DE92592126741C00960AA5 /* aw_thread_poll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_thread_poll.c; sourceTree = "<group>"; };
+		E7DE925A2126741C00960AA5 /* aw_thread_poll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_thread_poll.h; sourceTree = "<group>"; };
+		E7DE925B2126741C00960AA5 /* aw_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_utils.h; sourceTree = "<group>"; };
+		E7DE92672126741C00960AA5 /* aw_encode_flv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_encode_flv.c; sourceTree = "<group>"; };
+		E7DE92682126741C00960AA5 /* aw_encode_flv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_encode_flv.h; sourceTree = "<group>"; };
+		E7DE926A2126741C00960AA5 /* aw_streamer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aw_streamer.c; sourceTree = "<group>"; };
+		E7DE926B2126741C00960AA5 /* aw_streamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_streamer.h; sourceTree = "<group>"; };
+		E7DE927D212678A900960AA5 /* AWEncoderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWEncoderManager.h; sourceTree = "<group>"; };
+		E7DE927E212678A900960AA5 /* AWEncoderManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWEncoderManager.m; sourceTree = "<group>"; };
+		E7DE9280212678C400960AA5 /* AWAudioEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWAudioEncoder.h; sourceTree = "<group>"; };
+		E7DE9281212678C400960AA5 /* AWAudioEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAudioEncoder.m; sourceTree = "<group>"; };
+		E7DE9283212678DB00960AA5 /* AWEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWEncoder.h; sourceTree = "<group>"; };
+		E7DE9284212678DB00960AA5 /* AWEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWEncoder.m; sourceTree = "<group>"; };
+		E7DE9286212678E900960AA5 /* AWVideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWVideoEncoder.h; sourceTree = "<group>"; };
+		E7DE9287212678E900960AA5 /* AWVideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWVideoEncoder.m; sourceTree = "<group>"; };
+		E7DE928921267E4500960AA5 /* AWAVCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWAVCapture.h; sourceTree = "<group>"; };
+		E7DE928A21267E4500960AA5 /* AWAVCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAVCapture.m; sourceTree = "<group>"; };
+		E7DE928C21267E5400960AA5 /* AWAVCaptureManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWAVCaptureManager.h; sourceTree = "<group>"; };
+		E7DE928D21267E5400960AA5 /* AWAVCaptureManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAVCaptureManager.m; sourceTree = "<group>"; };
+		E7DE928F21267FD800960AA5 /* AWGPUImageAVCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWGPUImageAVCapture.h; sourceTree = "<group>"; };
+		E7DE929021267FD800960AA5 /* AWGPUImageAVCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWGPUImageAVCapture.m; sourceTree = "<group>"; };
+		E7DE929221267FEA00960AA5 /* AWSystemAVCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSystemAVCapture.h; sourceTree = "<group>"; };
+		E7DE929321267FEA00960AA5 /* AWSystemAVCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSystemAVCapture.m; sourceTree = "<group>"; };
+		E7DE92952126820700960AA5 /* AWAVConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWAVConfig.h; sourceTree = "<group>"; };
+		E7DE92962126820700960AA5 /* AWAVConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAVConfig.m; sourceTree = "<group>"; };
+		E7DE929D2126BD2300960AA5 /* AWHWAACEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWHWAACEncoder.h; sourceTree = "<group>"; };
+		E7DE929E2126BD2300960AA5 /* AWHWAACEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWHWAACEncoder.m; sourceTree = "<group>"; };
+		E7DE92A02126BD4000960AA5 /* AWHWH264Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWHWH264Encoder.h; sourceTree = "<group>"; };
+		E7DE92A12126BD4000960AA5 /* AWHWH264Encoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWHWH264Encoder.m; sourceTree = "<group>"; };
 		E7FFC8A81F94DDEC00D86470 /* MDGPUImageBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImageBaseController.h; sourceTree = "<group>"; };
 		E7FFC8A91F94DDEC00D86470 /* MDGPUImageBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImageBaseController.m; sourceTree = "<group>"; };
 		FC6E877C7DED4DCFC9227CD9 /* libPods-openGL_ES2.0_practice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-openGL_ES2.0_practice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -368,7 +463,10 @@
 		E72DAE2A20BD4E9200F57035 /* MediaPush_sample */ = {
 			isa = PBXGroup;
 			children = (
+				E74997B72136418500B339D1 /* controller */,
+				E74997A12134F4C000B339D1 /* GpuImage */,
 				E72DAE5F20BD561700F57035 /* capture */,
+				E7DE92792126785900960AA5 /* Encoder */,
 			);
 			name = MediaPush_sample;
 			sourceTree = "<group>";
@@ -376,6 +474,7 @@
 		E72DAE2B20BD4EB000F57035 /* media_util */ = {
 			isa = PBXGroup;
 			children = (
+				E7DE92492126741C00960AA5 /* libaw */,
 			);
 			name = media_util;
 			sourceTree = "<group>";
@@ -383,6 +482,7 @@
 		E72DAE2C20BD4EC100F57035 /* media_resource */ = {
 			isa = PBXGroup;
 			children = (
+				E74997BB2136441600B339D1 /* camera_switch.png */,
 			);
 			name = media_resource;
 			sourceTree = "<group>";
@@ -521,8 +621,54 @@
 		E72DAE5F20BD561700F57035 /* capture */ = {
 			isa = PBXGroup;
 			children = (
+				E7DE928921267E4500960AA5 /* AWAVCapture.h */,
+				E7DE928A21267E4500960AA5 /* AWAVCapture.m */,
+				E7DE928C21267E5400960AA5 /* AWAVCaptureManager.h */,
+				E7DE928D21267E5400960AA5 /* AWAVCaptureManager.m */,
+				E7DE928F21267FD800960AA5 /* AWGPUImageAVCapture.h */,
+				E7DE929021267FD800960AA5 /* AWGPUImageAVCapture.m */,
+				E7DE929221267FEA00960AA5 /* AWSystemAVCapture.h */,
+				E7DE929321267FEA00960AA5 /* AWSystemAVCapture.m */,
+				E7DE92952126820700960AA5 /* AWAVConfig.h */,
+				E7DE92962126820700960AA5 /* AWAVConfig.m */,
 			);
 			name = capture;
+			sourceTree = "<group>";
+		};
+		E74997A12134F4C000B339D1 /* GpuImage */ = {
+			isa = PBXGroup;
+			children = (
+				E74997B1213546E200B339D1 /* AWGPUImageVideoCamera.h */,
+				E74997B2213546E200B339D1 /* AWGPUImageVideoCamera.m */,
+			);
+			name = GpuImage;
+			sourceTree = "<group>";
+		};
+		E74997B72136418500B339D1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E74997BE2136442100B339D1 /* TestAVCapture.h */,
+				E74997BD2136442100B339D1 /* TestAVCapture.m */,
+				E74997B8213641B900B339D1 /* MDMediaPushController.h */,
+				E74997B9213641B900B339D1 /* MDMediaPushController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		E74997C721379AA700B339D1 /* encoder */ = {
+			isa = PBXGroup;
+			children = (
+				E74997CD21379AC300B339D1 /* aw_faac.c */,
+				E74997C921379AC300B339D1 /* aw_faac.h */,
+				E74997CC21379AC300B339D1 /* aw_sw_faac_encoder.c */,
+				E74997CF21379AC300B339D1 /* aw_sw_faac_encoder.h */,
+				E74997C821379AC300B339D1 /* aw_sw_x264_encoder.c */,
+				E74997CA21379AC300B339D1 /* aw_sw_x264_encoder.h */,
+				E74997CE21379AC300B339D1 /* aw_x264.c */,
+				E74997CB21379AC300B339D1 /* aw_x264.h */,
+			);
+			name = encoder;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		E74D9B402043AFFC00F0C84D /* openGL_book_sample */ = {
@@ -672,6 +818,8 @@
 				E74D9B3E2043AFCD00F0C84D /* MDOpenGLBookBaseController.m */,
 				E7DE91EC2122DA4400960AA5 /* MDBaseFoundationController.h */,
 				E7DE91ED2122DA4400960AA5 /* MDBaseFoundationController.m */,
+				E74997B42136412E00B339D1 /* MDMediaBaseController.h */,
+				E74997B52136412E00B339D1 /* MDMediaBaseController.m */,
 			);
 			name = base;
 			sourceTree = "<group>";
@@ -921,6 +1069,115 @@
 			name = normal_util;
 			sourceTree = "<group>";
 		};
+		E7DE92492126741C00960AA5 /* libaw */ = {
+			isa = PBXGroup;
+			children = (
+				E7DE924A2126741C00960AA5 /* aw_all.h */,
+				E7DE924B2126741C00960AA5 /* common */,
+				E7DE925C2126741C00960AA5 /* pushStream */,
+			);
+			name = libaw;
+			path = "../../../../Downloads/AWLive-master/clibs/libaw";
+			sourceTree = "<group>";
+		};
+		E7DE924B2126741C00960AA5 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				E7DE924C2126741C00960AA5 /* aw_alloc.c */,
+				E7DE924D2126741C00960AA5 /* aw_alloc.h */,
+				E7DE924E2126741C00960AA5 /* aw_array.c */,
+				E7DE924F2126741C00960AA5 /* aw_array.h */,
+				E7DE92502126741C00960AA5 /* aw_common.h */,
+				E7DE92512126741C00960AA5 /* aw_data.c */,
+				E7DE92522126741C00960AA5 /* aw_data.h */,
+				E7DE92532126741C00960AA5 /* aw_dict.c */,
+				E7DE92542126741C00960AA5 /* aw_dict.h */,
+				E7DE92552126741C00960AA5 /* aw_file.c */,
+				E7DE92562126741C00960AA5 /* aw_file.h */,
+				E7DE92572126741C00960AA5 /* aw_rtmp.c */,
+				E7DE92582126741C00960AA5 /* aw_rtmp.h */,
+				E7DE92592126741C00960AA5 /* aw_thread_poll.c */,
+				E7DE925A2126741C00960AA5 /* aw_thread_poll.h */,
+				E7DE925B2126741C00960AA5 /* aw_utils.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		E7DE925C2126741C00960AA5 /* pushStream */ = {
+			isa = PBXGroup;
+			children = (
+				E74997C721379AA700B339D1 /* encoder */,
+				E7DE92662126741C00960AA5 /* flv */,
+				E7DE92692126741C00960AA5 /* rtmp */,
+			);
+			path = pushStream;
+			sourceTree = "<group>";
+		};
+		E7DE92662126741C00960AA5 /* flv */ = {
+			isa = PBXGroup;
+			children = (
+				E7DE92672126741C00960AA5 /* aw_encode_flv.c */,
+				E7DE92682126741C00960AA5 /* aw_encode_flv.h */,
+			);
+			path = flv;
+			sourceTree = "<group>";
+		};
+		E7DE92692126741C00960AA5 /* rtmp */ = {
+			isa = PBXGroup;
+			children = (
+				E7DE926A2126741C00960AA5 /* aw_streamer.c */,
+				E7DE926B2126741C00960AA5 /* aw_streamer.h */,
+			);
+			path = rtmp;
+			sourceTree = "<group>";
+		};
+		E7DE92792126785900960AA5 /* Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				E7DE927D212678A900960AA5 /* AWEncoderManager.h */,
+				E7DE927E212678A900960AA5 /* AWEncoderManager.m */,
+				E7DE927C2126787900960AA5 /* Base */,
+				E7DE927B2126787200960AA5 /* HW */,
+				E7DE927A2126786500960AA5 /* SW */,
+			);
+			name = Encoder;
+			sourceTree = "<group>";
+		};
+		E7DE927A2126786500960AA5 /* SW */ = {
+			isa = PBXGroup;
+			children = (
+				E74997C02136874C00B339D1 /* AWSWX264Encoder.h */,
+				E74997C12136874C00B339D1 /* AWSWX264Encoder.m */,
+				E74997C32136876C00B339D1 /* AWSWFaacEncoder.h */,
+				E74997C42136876C00B339D1 /* AWSWFaacEncoder.m */,
+			);
+			name = SW;
+			sourceTree = "<group>";
+		};
+		E7DE927B2126787200960AA5 /* HW */ = {
+			isa = PBXGroup;
+			children = (
+				E7DE929D2126BD2300960AA5 /* AWHWAACEncoder.h */,
+				E7DE929E2126BD2300960AA5 /* AWHWAACEncoder.m */,
+				E7DE92A02126BD4000960AA5 /* AWHWH264Encoder.h */,
+				E7DE92A12126BD4000960AA5 /* AWHWH264Encoder.m */,
+			);
+			name = HW;
+			sourceTree = "<group>";
+		};
+		E7DE927C2126787900960AA5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E7DE9283212678DB00960AA5 /* AWEncoder.h */,
+				E7DE9284212678DB00960AA5 /* AWEncoder.m */,
+				E7DE9280212678C400960AA5 /* AWAudioEncoder.h */,
+				E7DE9281212678C400960AA5 /* AWAudioEncoder.m */,
+				E7DE9286212678E900960AA5 /* AWVideoEncoder.h */,
+				E7DE9287212678E900960AA5 /* AWVideoEncoder.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1043,6 +1300,7 @@
 				E78E78901F8F17DE0051CDCA /* for_test.jpg in Resources */,
 				E7901EE71F99FE3000D35249 /* abc.mp4 in Resources */,
 				E7BDD5442046530B00FE63FB /* Earth512x256.jpg in Resources */,
+				E74997BC2136441600B339D1 /* camera_switch.png in Resources */,
 				E78E785D1F8F0DD10051CDCA /* Assets.xcassets in Resources */,
 				E78E789C1F8F235B0051CDCA /* shaderf_002.fsh in Resources */,
 				E7C1628F1F9458F9008C0027 /* Purple.png in Resources */,
@@ -1143,49 +1401,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				E72D9D511F9DDA2A007258EB /* MDAVFoundationBaseController.m in Sources */,
+				E74997D121379AC300B339D1 /* aw_sw_faac_encoder.c in Sources */,
+				E7DE926D2126741C00960AA5 /* aw_array.c in Sources */,
+				E74997D021379AC300B339D1 /* aw_sw_x264_encoder.c in Sources */,
+				E74997B3213546E200B339D1 /* AWGPUImageVideoCamera.m in Sources */,
+				E74997BA213641B900B339D1 /* MDMediaPushController.m in Sources */,
 				E78E78A21F8F62E40051CDCA /* MDLearnView_003.m in Sources */,
+				E74997C52136876C00B339D1 /* AWSWFaacEncoder.m in Sources */,
 				E7BDD5392045621A00FE63FB /* AGLKContext.m in Sources */,
 				E7138E021F988AA200D5A2B5 /* GPUImageBeautifyFilter.m in Sources */,
 				E78E78851F8F0E310051CDCA /* MDOpenGLBaseController.m in Sources */,
 				E7C1629C1F94A730008C0027 /* shaderUtil.c in Sources */,
+				E74997BF2136442100B339D1 /* TestAVCapture.m in Sources */,
 				E74134C71F99D62000D49E69 /* MDGPUImage_006.m in Sources */,
 				E7DE91F32122DCE400960AA5 /* MDLayerPracticeController.m in Sources */,
 				E7AAD4CB20468A0A0039121A /* AGLKTextureLoader.m in Sources */,
+				E7DE92702126741C00960AA5 /* aw_file.c in Sources */,
 				E78E78AE1F8F69B60051CDCA /* GLESMath.c in Sources */,
 				E78E78581F8F0DD10051CDCA /* ViewController.m in Sources */,
 				E7AAD4C420465B5D0039121A /* OpenGLES_ch3_1.m in Sources */,
 				E7AAD4E02047A2510039121A /* OpenGLES_ch4_2.m in Sources */,
+				E7DE929121267FD800960AA5 /* AWGPUImageAVCapture.m in Sources */,
+				E7DE929421267FEA00960AA5 /* AWSystemAVCapture.m in Sources */,
 				E7C1627B1F945789008C0027 /* MDGLPaintController.m in Sources */,
+				E7DE92712126741C00960AA5 /* aw_rtmp.c in Sources */,
+				E7DE926E2126741C00960AA5 /* aw_data.c in Sources */,
+				E7DE9282212678C400960AA5 /* AWAudioEncoder.m in Sources */,
 				E75B7DAC1F9B8B67000C77C2 /* MDGPUImage_008.m in Sources */,
 				E74134CE1F99F31B00D49E69 /* MDGPUimage_005.m in Sources */,
+				E74997B62136412E00B339D1 /* MDMediaBaseController.m in Sources */,
+				E7DE926C2126741C00960AA5 /* aw_alloc.c in Sources */,
 				E74D9B3F2043AFCD00F0C84D /* MDOpenGLBookBaseController.m in Sources */,
+				E7DE9285212678DB00960AA5 /* AWEncoder.m in Sources */,
 				E75FFE5F1F9A116C0064410A /* MDGPUImage_007.m in Sources */,
+				E74997D221379AC300B339D1 /* aw_faac.c in Sources */,
 				E7DE91F82123C8EA00960AA5 /* MDLayerTransformView.m in Sources */,
 				E7BDD533204561AF00FE63FB /* AGLKViewController.m in Sources */,
+				E7DE92782126741C00960AA5 /* aw_streamer.c in Sources */,
+				E7DE92772126741C00960AA5 /* aw_encode_flv.c in Sources */,
 				E75B7DB41F9C706C000C77C2 /* MDGPUImage_010.m in Sources */,
 				E78E78AF1F8F69B60051CDCA /* GLESUtils.m in Sources */,
+				E7DE92A22126BD4000960AA5 /* AWHWH264Encoder.m in Sources */,
+				E7DE926F2126741C00960AA5 /* aw_dict.c in Sources */,
 				E78E78971F8F211C0051CDCA /* MDLearnView_002.m in Sources */,
 				E7BDD5302045616400FE63FB /* OpenGLES_Ch2.m in Sources */,
 				E7138E061F98B60400D5A2B5 /* MDGPUImage_004.m in Sources */,
+				E7DE92972126820700960AA5 /* AWAVConfig.m in Sources */,
 				E7138DFF1F9889F400D5A2B5 /* MDGPUImage_003.m in Sources */,
 				E7AAD4DD2046C38D0039121A /* OpenGLES_ch3_6.m in Sources */,
 				E75B7DB11F9C6335000C77C2 /* MDGPUImage_009.m in Sources */,
 				E7DE91FC2123CB1800960AA5 /* UIView+Utils.m in Sources */,
 				E78E788E1F8F0F9E0051CDCA /* MDESEentrance_001.m in Sources */,
+				E7DE928B21267E4500960AA5 /* AWAVCapture.m in Sources */,
 				E7AAD4D120469DC10039121A /* OpenGLES_ch3_3.m in Sources */,
 				E72D9D271F9DBFC5007258EB /* CanvasView.m in Sources */,
 				E78E78931F8F1F810051CDCA /* MDESEentrance_002.m in Sources */,
 				E78E78551F8F0DD10051CDCA /* AppDelegate.m in Sources */,
+				E7DE92722126741C00960AA5 /* aw_thread_poll.c in Sources */,
 				E7C162811F945883008C0027 /* SoundEffect.m in Sources */,
 				E7BDD53C2045623B00FE63FB /* AGLKVertexAttribArrayBuffer.m in Sources */,
 				E7AAD4CE20468FFD0039121A /* OpenGLES_ch3_2.m in Sources */,
 				E7AAD4D62046AD5D0039121A /* OpenGLES_ch3_4.m in Sources */,
+				E7DE9288212678E900960AA5 /* AWVideoEncoder.m in Sources */,
 				E7C1627E1F9457A5008C0027 /* MDPaintingView.m in Sources */,
 				E7C162851F9458DC008C0027 /* fileUtil.m in Sources */,
 				E7138DF21F97257D00D5A2B5 /* MDGPUImage_002.m in Sources */,
 				E7FFC8AA1F94DDEC00D86470 /* MDGPUImageBaseController.m in Sources */,
 				E7BDD536204561E200FE63FB /* AGLKView.m in Sources */,
 				E78E789F1F8F62960051CDCA /* MDESEentrance_003.m in Sources */,
+				E7DE927F212678A900960AA5 /* AWEncoderManager.m in Sources */,
+				E7DE928E21267E5400960AA5 /* AWAVCaptureManager.m in Sources */,
+				E7DE929F2126BD2300960AA5 /* AWHWAACEncoder.m in Sources */,
+				E74997C22136874C00B339D1 /* AWSWX264Encoder.m in Sources */,
+				E74997D321379AC300B339D1 /* aw_x264.c in Sources */,
 				E7DE91EE2122DA4400960AA5 /* MDBaseFoundationController.m in Sources */,
 				E78E78521F8F0DD10051CDCA /* main.m in Sources */,
 			);
@@ -1336,7 +1624,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 36WT396TPZ;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/openGL_ES2.0_practice",
@@ -1372,7 +1660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 36WT396TPZ;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/openGL_ES2.0_practice",
