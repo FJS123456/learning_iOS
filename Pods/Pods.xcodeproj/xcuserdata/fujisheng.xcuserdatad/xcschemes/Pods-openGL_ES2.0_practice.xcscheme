@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '391B716699B6C48876AAB0D0B8F6F230'
-               BlueprintName = 'Pods-openGL_ES2.0_practice'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-openGL_ES2.0_practice.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6F0028E3C245D560FF72CAF17430D431"
+               BlueprintName = "Pods-openGL_ES2.0_practice"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPods-openGL_ES2.0_practice.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
