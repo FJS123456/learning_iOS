@@ -8,7 +8,6 @@
 
 #import "MDLayerPracticeController.h"
 #import "MDLayerTransformView.h"
-#import "MDBubbleView.h"
 #import "MDBaseDefine.h"
 #import "DrawingView.h"
 

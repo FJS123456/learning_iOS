@@ -59,7 +59,6 @@
 		E74997C22136874C00B339D1 /* AWSWX264Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E74997C12136874C00B339D1 /* AWSWX264Encoder.m */; };
 		E74997C52136876C00B339D1 /* AWSWFaacEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E74997C42136876C00B339D1 /* AWSWFaacEncoder.m */; };
 		E74D9B3F2043AFCD00F0C84D /* MDOpenGLBookBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74D9B3E2043AFCD00F0C84D /* MDOpenGLBookBaseController.m */; };
-		E755A3E3242611BF00A2E261 /* MDBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E755A3E2242611BE00A2E261 /* MDBubbleView.m */; };
 		E75B7DA81F9A1976000C77C2 /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = E75B7DA71F9A1976000C77C2 /* watermark.png */; };
 		E75B7DAC1F9B8B67000C77C2 /* MDGPUImage_008.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B7DAB1F9B8B67000C77C2 /* MDGPUImage_008.m */; };
 		E75B7DB11F9C6335000C77C2 /* MDGPUImage_009.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B7DB01F9C6335000C77C2 /* MDGPUImage_009.m */; };
@@ -381,8 +380,6 @@
 		E74997C42136876C00B339D1 /* AWSWFaacEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSWFaacEncoder.m; sourceTree = "<group>"; };
 		E74D9B3D2043AFCC00F0C84D /* MDOpenGLBookBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOpenGLBookBaseController.h; sourceTree = "<group>"; };
 		E74D9B3E2043AFCD00F0C84D /* MDOpenGLBookBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDOpenGLBookBaseController.m; sourceTree = "<group>"; };
-		E755A3E1242611BE00A2E261 /* MDBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDBubbleView.h; sourceTree = "<group>"; };
-		E755A3E2242611BE00A2E261 /* MDBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDBubbleView.m; sourceTree = "<group>"; };
 		E75B7DA71F9A1976000C77C2 /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark.png; sourceTree = "<group>"; };
 		E75B7DAA1F9B8B67000C77C2 /* MDGPUImage_008.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImage_008.h; sourceTree = "<group>"; };
 		E75B7DAB1F9B8B67000C77C2 /* MDGPUImage_008.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_008.m; sourceTree = "<group>"; };
@@ -1867,8 +1864,6 @@
 		E7DE91F92123CB0A00960AA5 /* normal_util */ = {
 			isa = PBXGroup;
 			children = (
-				E755A3E1242611BE00A2E261 /* MDBubbleView.h */,
-				E755A3E2242611BE00A2E261 /* MDBubbleView.m */,
 				E7DE91FA2123CB1800960AA5 /* UIView+Utils.h */,
 				E7DE91FB2123CB1800960AA5 /* UIView+Utils.m */,
 				E7DE91FD2123CB5A00960AA5 /* MDBaseDefine.h */,
@@ -2248,7 +2243,6 @@
 				E7DE92A22126BD4000960AA5 /* AWHWH264Encoder.m in Sources */,
 				E72C24ED2417759C006181E8 /* MDRuntimePracticeController.m in Sources */,
 				E782638B24220C5E00D42A91 /* YYCGUtilities.m in Sources */,
-				E755A3E3242611BF00A2E261 /* MDBubbleView.m in Sources */,
 				E735183C2431C96C00C7E916 /* YYImageTestController.m in Sources */,
 				E782637F24220C5E00D42A91 /* NSBundle+YYAdd.m in Sources */,
 				E78E78971F8F211C0051CDCA /* MDLearnView_002.m in Sources */,
