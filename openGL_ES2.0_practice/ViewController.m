@@ -12,8 +12,18 @@
 #import "MDOpenGLBookBaseController.h"
 #import "MDBaseFoundationController.h"
 #import "MDMediaBaseController.h"
+#import "MDARKitBaseController.h"
+#import "MDMetalBaseController.h"
+#import "MDSourceCodeBaseController.h"
+#import "MDYYKitBaseViewController.h"
 
-@interface ViewController ()
+const static NSString * const kClassName = @"kClassName";
+const static NSString * const kTitleName = @"kTitleName";
+
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSMutableArray *datas;
 
 @end
 
@@ -23,44 +33,102 @@
 {
     [super viewDidLoad];
     
+    [self configUI];
+    [self configData];
 }
 
-- (IBAction)didClickOpenGLBtn:(id)sender
+- (void)configUI {
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.view addSubview:self.tableView];
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+}
+
+- (void)configData
 {
-    MDOpenGLBaseController *openGLCtr = [[MDOpenGLBaseController alloc] init];
+    self.datas = [NSMutableArray array];
     
-    UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:openGLCtr];
-    [self presentViewController:navCtr animated:YES completion:nil];
-
-}
-
-- (IBAction)didClickGPUImageBtn:(id)sender
-{
-    MDGPUImageBaseController *gpuImageCtr = [[MDGPUImageBaseController alloc] init];
+    NSMutableDictionary *dict1 = [NSMutableDictionary dictionary];
+    [dict1 setObject:@"MDGPUImageBaseController" forKey:kClassName];
+    [dict1 setObject:@"弹出GPUImage" forKey:kTitleName];
     
-    UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:gpuImageCtr];
-    [self presentViewController:navCtr animated:YES completion:nil];
+    NSMutableDictionary *dict2 = [NSMutableDictionary dictionary];
+    [dict2 setObject:@"MDSourceCodeBaseController" forKey:kClassName];
+    [dict2 setObject:@"源码实践" forKey:kTitleName];
+    
+    NSMutableDictionary *dict3 = [NSMutableDictionary dictionary];
+    [dict3 setObject:@"MDOpenGLBaseController" forKey:kClassName];
+    [dict3 setObject:@"弹出openGL" forKey:kTitleName];
+    
+    NSMutableDictionary *dict4 = [NSMutableDictionary dictionary];
+    [dict4 setObject:@"MDOpenGLBookBaseController" forKey:kClassName];
+    [dict4 setObject:@"弹出openGL_book" forKey:kTitleName];
+    
+    NSMutableDictionary *dict5 = [NSMutableDictionary dictionary];
+    [dict5 setObject:@"MDMediaBaseController" forKey:kClassName];
+    [dict5 setObject:@"实时音视频推送" forKey:kTitleName];
+    
+    NSMutableDictionary *dict6 = [NSMutableDictionary dictionary];
+    [dict6 setObject:@"MDBaseFoundationController" forKey:kClassName];
+    [dict6 setObject:@"Foundation 实践" forKey:kTitleName];
+    
+    NSMutableDictionary *dict7 = [NSMutableDictionary dictionary];
+    [dict7 setObject:@"MDARKitBaseController" forKey:kClassName];
+    [dict7 setObject:@"ARKit增强现实" forKey:kTitleName];
+    
+    NSMutableDictionary *dict8 = [NSMutableDictionary dictionary];
+    [dict8 setObject:@"MDMetalBaseController" forKey:kClassName];
+    [dict8 setObject:@"metal练习" forKey:kTitleName];
+    
+    NSMutableDictionary *dict9 = [NSMutableDictionary dictionary];
+    [dict9 setObject:@"MDYYKitBaseViewController" forKey:kClassName];
+    [dict9 setObject:@"YYKit练习" forKey:kTitleName];
+    
+    [self.datas addObject:dict1];
+    [self.datas addObject:dict2];
+    [self.datas addObject:dict3];
+    [self.datas addObject:dict4];
+    [self.datas addObject:dict5];
+    [self.datas addObject:dict6];
+    [self.datas addObject:dict7];
+    [self.datas addObject:dict8];
+    [self.datas addObject:dict9];
+
+    [self.tableView reloadData];
 }
 
-- (IBAction)didClickOpenGLBookBtn:(id)sender
+#pragma mark - UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    MDOpenGLBookBaseController *openGLBookCtr = [[MDOpenGLBookBaseController alloc] init];
-    UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:openGLBookCtr];
-    [self presentViewController:navCtr animated:YES completion:nil];
+    return self.datas.count;
 }
 
-- (IBAction)didClickMediaPush:(id)sender
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    MDMediaBaseController *meidaCtr = [[MDMediaBaseController alloc] init];
-    UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:meidaCtr];
-    [self presentViewController:navCtr animated:YES completion:nil];
+    static NSString * const identifier = @"transition";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+        NSDictionary *dict = [self.datas objectAtIndex:indexPath.row];
+        cell.textLabel.text = [dict objectForKey:kTitleName];
+    }
+    
+    return cell;
 }
 
-- (IBAction)didClickFoundationBtn:(id)sender
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    MDBaseFoundationController *uiFoundationCtr = [[MDBaseFoundationController alloc] init];
-    UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:uiFoundationCtr];
-    [self presentViewController:navCtr animated:YES completion:nil];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    NSString *className = [[self.datas objectAtIndex:indexPath.row] objectForKey:kClassName];
+    UIViewController *selectedCtr = [[NSClassFromString(className) alloc] init];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:selectedCtr];
+    [self presentViewController:navController animated:YES completion:nil];
 }
 
 @end

@@ -96,7 +96,7 @@ static SceneVertex vertexI = {{ 0.5, -0.5, -0.5}, {1.0, 0.0}};
     
     self.vertexBuffer = [[AGLKVertexAttribArrayBuffer alloc] initWithAttribStride:sizeof(SceneVertex) numberOfVertices:sizeof(triangles)/sizeof(SceneVertex) bytes:triangles usage:GL_DYNAMIC_DRAW];
     
-    self.shouldUseDetailLighting = YES;
+    self.shouldUseDetailLighting = NO;
 }
 
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect

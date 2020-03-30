@@ -54,6 +54,16 @@ const static NSString * const kTitleName = @"kTitleName";
     return _tableView;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.hidden = NO;
+}
+
+-  (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    self.navigationController.navigationBar.hidden = YES;
+}
+
 - (NSMutableArray *)datas
 {
     if (!_datas) {

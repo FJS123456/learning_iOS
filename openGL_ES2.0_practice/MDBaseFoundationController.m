@@ -8,7 +8,8 @@
 
 #import "MDBaseFoundationController.h"
 #import "MDLayerPracticeController.h"
-
+#import "MDRunLoopTestController.h"
+#import "MDKVOAndKVCTestController.h"
 
 const static NSString * const kClassName = @"kClassName";
 const static NSString * const kTitleName = @"kTitleName";
@@ -63,7 +64,17 @@ const static NSString * const kTitleName = @"kTitleName";
     [dict1 setObject:@"MDLayerPracticeController" forKey:kClassName];
     [dict1 setObject:@"图层实践" forKey:kTitleName];
     
+    NSMutableDictionary *dict2 = [NSMutableDictionary dictionary];
+    [dict2 setObject:@"MDRunLoopTestController" forKey:kClassName];
+    [dict2 setObject:@"runLoop实践" forKey:kTitleName];
+    
+    NSMutableDictionary *dict3 = [NSMutableDictionary dictionary];
+    [dict3 setObject:@"MDKVOAndKVCTestController" forKey:kClassName];
+    [dict3 setObject:@"KVO & KVC" forKey:kTitleName];
+    
     [self.datas addObject:dict1];
+    [self.datas addObject:dict2];
+    [self.datas addObject:dict3];
 }
 
 #pragma mark - UITableViewDataSource

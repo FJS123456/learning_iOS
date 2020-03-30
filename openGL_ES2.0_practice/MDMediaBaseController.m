@@ -8,6 +8,7 @@
 
 #import "MDMediaBaseController.h"
 #import "MDMediaPushController.h"
+#import "MDAudioUnitRecordController.h"
 
 const static NSString * const kClassName = @"kClassName";
 const static NSString * const kTitleName = @"kTitleName";
@@ -62,7 +63,12 @@ const static NSString * const kTitleName = @"kTitleName";
     [dict1 setObject:@"MDMediaPushController" forKey:kClassName];
     [dict1 setObject:@"直播测试" forKey:kTitleName];
     
+    NSMutableDictionary *dict2 = [NSMutableDictionary dictionary];
+    [dict2 setObject:@"MDAudioUnitRecordController" forKey:kClassName];
+    [dict2 setObject:@"audioUnit_record" forKey:kTitleName];
+    
     [self.datas addObject:dict1];
+    [self.datas addObject:dict2];
 }
 
 #pragma mark - UITableViewDataSource

@@ -12,17 +12,11 @@
 
 @interface OpenGLES_ch3_3 : GLKViewController
 
-@property (strong, nonatomic) GLKBaseEffect
-*baseEffect;
-@property (strong, nonatomic) AGLKVertexAttribArrayBuffer
-*vertexBuffer;
-@property (nonatomic) BOOL
-shouldUseLinearFilter;
-@property (nonatomic) BOOL
-shouldAnimate;
-@property (nonatomic) BOOL
-shouldRepeatTexture;
-@property (nonatomic) GLfloat
-sCoordinateOffset;
+@property (strong, nonatomic) GLKBaseEffect *baseEffect;
+@property (strong, nonatomic) AGLKVertexAttribArrayBuffer *vertexBuffer;
+@property (nonatomic) BOOL shouldUseLinearFilter;
+@property (nonatomic) BOOL shouldAnimate;
+@property (nonatomic) BOOL shouldRepeatTexture;
+@property (nonatomic) GLfloat sCoordinateOffset;
 
 @end
