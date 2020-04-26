@@ -1,20 +1,25 @@
 PODS:
+  - CocoaAsyncSocket (7.6.4)
   - GPUImage (0.1.7)
   - Objection (1.6.1)
 
 DEPENDENCIES:
+  - CocoaAsyncSocket
   - GPUImage
   - Objection (= 1.6.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - GPUImage
     - Objection
+  trunk:
+    - CocoaAsyncSocket
 
 SPEC CHECKSUMS:
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   Objection: ed03f2219cb22d2b5b893114219fe6c7e3263bde
 
-PODFILE CHECKSUM: e49c541d9c0c69e124cbd694d7891e689f0f82f3
+PODFILE CHECKSUM: d11f7d993108dd86aa5045da55a6ea3321741421
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4

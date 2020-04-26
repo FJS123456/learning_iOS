@@ -35,14 +35,20 @@
 		E72E7E4D2249004400095789 /* aw_dict.c in Sources */ = {isa = PBXBuildFile; fileRef = E72E7E3F2249004300095789 /* aw_dict.c */; };
 		E72E7E4E2249004400095789 /* aw_array.c in Sources */ = {isa = PBXBuildFile; fileRef = E72E7E402249004300095789 /* aw_array.c */; };
 		E72F45732428BE5E00B0B6DC /* MDKVOAndKVCTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F45722428BE5E00B0B6DC /* MDKVOAndKVCTestController.m */; };
+		E730B90624389939007AC31C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E730B90524389939007AC31C /* main.cpp */; };
+		E730B90A2438994C007AC31C /* SingleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E72D236D24364BC700134688 /* SingleList.cpp */; };
+		E730B90D24389AC3007AC31C /* algorithm_offer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E730B90B24389AC3007AC31C /* algorithm_offer.cpp */; };
 		E7349E52242C4CFF00AC6800 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7349E51242C4CFF00AC6800 /* DrawingView.m */; };
 		E7349E56242C50CD00AC6800 /* UIViewController+FixPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = E7349E55242C50CD00AC6800 /* UIViewController+FixPresent.m */; };
 		E7349E59242C519000AC6800 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = E7349E58242C519000AC6800 /* NSObject+Swizzle.m */; };
 		E735183C2431C96C00C7E916 /* YYImageTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E735183B2431C96C00C7E916 /* YYImageTestController.m */; };
-		E738033E242DDE27001CED05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E738033D242DDE27001CED05 /* main.m */; };
+		E737CC2D24486E0E000DE2F7 /* MDIMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E737CC2C24486E0E000DE2F7 /* MDIMBaseViewController.m */; };
+		E737CC3124486EC8000DE2F7 /* MDSocketClient_001.m in Sources */ = {isa = PBXBuildFile; fileRef = E737CC3024486EC8000DE2F7 /* MDSocketClient_001.m */; };
+		E737CC34244957AF000DE2F7 /* MDGCDAsyncSocketController.m in Sources */ = {isa = PBXBuildFile; fileRef = E737CC33244957AF000DE2F7 /* MDGCDAsyncSocketController.m */; };
 		E74134C71F99D62000D49E69 /* MDGPUImage_006.m in Sources */ = {isa = PBXBuildFile; fileRef = E74134C61F99D62000D49E69 /* MDGPUImage_006.m */; };
 		E74134CE1F99F31B00D49E69 /* MDGPUimage_005.m in Sources */ = {isa = PBXBuildFile; fileRef = E74134CD1F99F31B00D49E69 /* MDGPUimage_005.m */; };
 		E74134D31F99FB0300D49E69 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = E74134D21F99FB0300D49E69 /* face.png */; };
+		E7431A04243DCC44001380A3 /* DataStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7431A02243DCC44001380A3 /* DataStruct.cpp */; };
 		E7476B1A2341ADCD00DDBF22 /* MDMetalBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7476B192341ADCD00DDBF22 /* MDMetalBaseController.m */; };
 		E7476B1D2341ADF100DDBF22 /* MDMetalFramework_001.m in Sources */ = {isa = PBXBuildFile; fileRef = E7476B1C2341ADF100DDBF22 /* MDMetalFramework_001.m */; };
 		E7476B202341DC1E00DDBF22 /* abc.png in Resources */ = {isa = PBXBuildFile; fileRef = E7476B1F2341DC1E00DDBF22 /* abc.png */; };
@@ -64,6 +70,8 @@
 		E75B7DB11F9C6335000C77C2 /* MDGPUImage_009.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B7DB01F9C6335000C77C2 /* MDGPUImage_009.m */; };
 		E75B7DB41F9C706C000C77C2 /* MDGPUImage_010.m in Sources */ = {isa = PBXBuildFile; fileRef = E75B7DB31F9C706C000C77C2 /* MDGPUImage_010.m */; };
 		E75FFE5F1F9A116C0064410A /* MDGPUImage_007.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FFE5E1F9A116C0064410A /* MDGPUImage_007.m */; };
+		E76A774424443D8900F93417 /* GYNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E76A774124443D8800F93417 /* GYNotificationCenter.m */; };
+		E76A774524443D8900F93417 /* GYNotificationOberverIdentifer.m in Sources */ = {isa = PBXBuildFile; fileRef = E76A774324443D8900F93417 /* GYNotificationOberverIdentifer.m */; };
 		E772E1E62338B05900C4DD6D /* MDARKitBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E772E1E52338B05900C4DD6D /* MDARKitBaseController.m */; };
 		E772E1E92338B0DF00C4DD6D /* MDARKitFramework_001.m in Sources */ = {isa = PBXBuildFile; fileRef = E772E1E82338B0DF00C4DD6D /* MDARKitFramework_001.m */; };
 		E782629124220AB000D42A91 /* MDYYKitBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E782629024220AB000D42A91 /* MDYYKitBaseViewController.m */; };
@@ -156,8 +164,6 @@
 		E78E785B1F8F0DD10051CDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78E78591F8F0DD10051CDCA /* Main.storyboard */; };
 		E78E785D1F8F0DD10051CDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78E785C1F8F0DD10051CDCA /* Assets.xcassets */; };
 		E78E78601F8F0DD10051CDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78E785E1F8F0DD10051CDCA /* LaunchScreen.storyboard */; };
-		E78E786B1F8F0DD10051CDCA /* openGL_ES2_0_practiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78E786A1F8F0DD10051CDCA /* openGL_ES2_0_practiceTests.m */; };
-		E78E78761F8F0DD10051CDCA /* openGL_ES2_0_practiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78E78751F8F0DD10051CDCA /* openGL_ES2_0_practiceUITests.m */; };
 		E78E78851F8F0E310051CDCA /* MDOpenGLBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78E78841F8F0E310051CDCA /* MDOpenGLBaseController.m */; };
 		E78E788E1F8F0F9E0051CDCA /* MDESEentrance_001.m in Sources */ = {isa = PBXBuildFile; fileRef = E78E788D1F8F0F9E0051CDCA /* MDESEentrance_001.m */; };
 		E78E78901F8F17DE0051CDCA /* for_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E78E788F1F8F17DE0051CDCA /* for_test.jpg */; };
@@ -221,28 +227,13 @@
 		E7DE92972126820700960AA5 /* AWAVConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE92962126820700960AA5 /* AWAVConfig.m */; };
 		E7DE929F2126BD2300960AA5 /* AWHWAACEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE929E2126BD2300960AA5 /* AWHWAACEncoder.m */; };
 		E7DE92A22126BD4000960AA5 /* AWHWH264Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE92A12126BD4000960AA5 /* AWHWH264Encoder.m */; };
+		E7F999372439688B0050449E /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7F999352439688B0050449E /* BinaryTree.cpp */; };
+		E7F9993A243B6C300050449E /* Sort_Find_Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7F99938243B6C300050449E /* Sort_Find_Algorithm.cpp */; };
 		E7FFC8AA1F94DDEC00D86470 /* MDGPUImageBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FFC8A91F94DDEC00D86470 /* MDGPUImageBaseController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E78E78671F8F0DD10051CDCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E78E78451F8F0DD10051CDCA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E78E784C1F8F0DD10051CDCA;
-			remoteInfo = openGL_ES2.0_practice;
-		};
-		E78E78721F8F0DD10051CDCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E78E78451F8F0DD10051CDCA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E78E784C1F8F0DD10051CDCA;
-			remoteInfo = openGL_ES2.0_practice;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		E7380339242DDE27001CED05 /* CopyFiles */ = {
+		E730B90124389939007AC31C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -269,6 +260,8 @@
 		E72C24E924161CA2006181E8 /* MDRunLoopTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDRunLoopTestController.m; sourceTree = "<group>"; };
 		E72C24EB2417759C006181E8 /* MDRuntimePracticeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDRuntimePracticeController.h; sourceTree = "<group>"; };
 		E72C24EC2417759C006181E8 /* MDRuntimePracticeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDRuntimePracticeController.m; sourceTree = "<group>"; };
+		E72D236D24364BC700134688 /* SingleList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SingleList.cpp; sourceTree = "<group>"; };
+		E72D236E24364BC700134688 /* SingleList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SingleList.hpp; sourceTree = "<group>"; };
 		E72D9D251F9DBFC5007258EB /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 		E72D9D261F9DBFC5007258EB /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
 		E72D9D4F1F9DDA2A007258EB /* MDAVFoundationBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAVFoundationBaseController.h; sourceTree = "<group>"; };
@@ -335,6 +328,10 @@
 		E72E7E412249004300095789 /* aw_all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aw_all.h; sourceTree = "<group>"; };
 		E72F45712428BE5E00B0B6DC /* MDKVOAndKVCTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDKVOAndKVCTestController.h; sourceTree = "<group>"; };
 		E72F45722428BE5E00B0B6DC /* MDKVOAndKVCTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDKVOAndKVCTestController.m; sourceTree = "<group>"; };
+		E730B90324389939007AC31C /* TestC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TestC++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E730B90524389939007AC31C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E730B90B24389AC3007AC31C /* algorithm_offer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = algorithm_offer.cpp; sourceTree = "<group>"; };
+		E730B90C24389AC3007AC31C /* algorithm_offer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = algorithm_offer.hpp; sourceTree = "<group>"; };
 		E7349E50242C4CFF00AC6800 /* DrawingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
 		E7349E51242C4CFF00AC6800 /* DrawingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 		E7349E54242C50CD00AC6800 /* UIViewController+FixPresent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FixPresent.h"; sourceTree = "<group>"; };
@@ -343,13 +340,19 @@
 		E7349E58242C519000AC6800 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
 		E735183A2431C96C00C7E916 /* YYImageTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImageTestController.h; sourceTree = "<group>"; };
 		E735183B2431C96C00C7E916 /* YYImageTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageTestController.m; sourceTree = "<group>"; };
-		E738033B242DDE27001CED05 /* TestCAndC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TestCAndC++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E738033D242DDE27001CED05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E737CC2B24486E0E000DE2F7 /* MDIMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDIMBaseViewController.h; sourceTree = "<group>"; };
+		E737CC2C24486E0E000DE2F7 /* MDIMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDIMBaseViewController.m; sourceTree = "<group>"; };
+		E737CC2F24486EC8000DE2F7 /* MDSocketClient_001.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSocketClient_001.h; sourceTree = "<group>"; };
+		E737CC3024486EC8000DE2F7 /* MDSocketClient_001.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSocketClient_001.m; sourceTree = "<group>"; };
+		E737CC32244957AF000DE2F7 /* MDGCDAsyncSocketController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDGCDAsyncSocketController.h; sourceTree = "<group>"; };
+		E737CC33244957AF000DE2F7 /* MDGCDAsyncSocketController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDGCDAsyncSocketController.m; sourceTree = "<group>"; };
 		E74134C51F99D62000D49E69 /* MDGPUImage_006.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImage_006.h; sourceTree = "<group>"; };
 		E74134C61F99D62000D49E69 /* MDGPUImage_006.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_006.m; sourceTree = "<group>"; };
 		E74134CC1F99F31B00D49E69 /* MDGPUimage_005.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUimage_005.h; sourceTree = "<group>"; };
 		E74134CD1F99F31B00D49E69 /* MDGPUimage_005.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUimage_005.m; sourceTree = "<group>"; };
 		E74134D21F99FB0300D49E69 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		E7431A02243DCC44001380A3 /* DataStruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DataStruct.cpp; sourceTree = "<group>"; };
+		E7431A03243DCC44001380A3 /* DataStruct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DataStruct.hpp; sourceTree = "<group>"; };
 		E7476B182341ADCD00DDBF22 /* MDMetalBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMetalBaseController.h; sourceTree = "<group>"; };
 		E7476B192341ADCD00DDBF22 /* MDMetalBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMetalBaseController.m; sourceTree = "<group>"; };
 		E7476B1B2341ADF100DDBF22 /* MDMetalFramework_001.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMetalFramework_001.h; sourceTree = "<group>"; };
@@ -389,6 +392,10 @@
 		E75B7DB31F9C706C000C77C2 /* MDGPUImage_010.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_010.m; sourceTree = "<group>"; };
 		E75FFE5D1F9A116C0064410A /* MDGPUImage_007.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImage_007.h; sourceTree = "<group>"; };
 		E75FFE5E1F9A116C0064410A /* MDGPUImage_007.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImage_007.m; sourceTree = "<group>"; };
+		E76A774024443D8800F93417 /* GYNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYNotificationCenter.h; sourceTree = "<group>"; };
+		E76A774124443D8800F93417 /* GYNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYNotificationCenter.m; sourceTree = "<group>"; };
+		E76A774224443D8800F93417 /* GYNotificationOberverIdentifer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYNotificationOberverIdentifer.h; sourceTree = "<group>"; };
+		E76A774324443D8900F93417 /* GYNotificationOberverIdentifer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYNotificationOberverIdentifer.m; sourceTree = "<group>"; };
 		E772E1E42338B05900C4DD6D /* MDARKitBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDARKitBaseController.h; sourceTree = "<group>"; };
 		E772E1E52338B05900C4DD6D /* MDARKitBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDARKitBaseController.m; sourceTree = "<group>"; };
 		E772E1E72338B0DF00C4DD6D /* MDARKitFramework_001.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDARKitFramework_001.h; sourceTree = "<group>"; };
@@ -573,10 +580,8 @@
 		E78E785C1F8F0DD10051CDCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E78E785F1F8F0DD10051CDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E78E78611F8F0DD10051CDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E78E78661F8F0DD10051CDCA /* openGL_ES2.0_practiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openGL_ES2.0_practiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78E786A1F8F0DD10051CDCA /* openGL_ES2_0_practiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openGL_ES2_0_practiceTests.m; sourceTree = "<group>"; };
 		E78E786C1F8F0DD10051CDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E78E78711F8F0DD10051CDCA /* openGL_ES2.0_practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openGL_ES2.0_practiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78E78751F8F0DD10051CDCA /* openGL_ES2_0_practiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openGL_ES2_0_practiceUITests.m; sourceTree = "<group>"; };
 		E78E78771F8F0DD10051CDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E78E78831F8F0E310051CDCA /* MDOpenGLBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDOpenGLBaseController.h; sourceTree = "<group>"; };
@@ -689,13 +694,17 @@
 		E7DE929E2126BD2300960AA5 /* AWHWAACEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWHWAACEncoder.m; sourceTree = "<group>"; };
 		E7DE92A02126BD4000960AA5 /* AWHWH264Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWHWH264Encoder.h; sourceTree = "<group>"; };
 		E7DE92A12126BD4000960AA5 /* AWHWH264Encoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWHWH264Encoder.m; sourceTree = "<group>"; };
+		E7F999352439688B0050449E /* BinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
+		E7F999362439688B0050449E /* BinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTree.hpp; sourceTree = "<group>"; };
+		E7F99938243B6C300050449E /* Sort_Find_Algorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort_Find_Algorithm.cpp; sourceTree = "<group>"; };
+		E7F99939243B6C300050449E /* Sort_Find_Algorithm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sort_Find_Algorithm.hpp; sourceTree = "<group>"; };
 		E7FFC8A81F94DDEC00D86470 /* MDGPUImageBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGPUImageBaseController.h; sourceTree = "<group>"; };
 		E7FFC8A91F94DDEC00D86470 /* MDGPUImageBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGPUImageBaseController.m; sourceTree = "<group>"; };
 		FC6E877C7DED4DCFC9227CD9 /* libPods-openGL_ES2.0_practice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-openGL_ES2.0_practice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E7380338242DDE27001CED05 /* Frameworks */ = {
+		E730B90024389939007AC31C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -712,20 +721,6 @@
 				E72DAE5B20BD4F3600F57035 /* librtmp.a in Frameworks */,
 				E72DAE5A20BD4F3600F57035 /* libx264.a in Frameworks */,
 				E72DAE5C20BD4F3600F57035 /* libfaac.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E78E78631F8F0DD10051CDCA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E78E786E1F8F0DD10051CDCA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,6 +752,30 @@
 				E72C24EC2417759C006181E8 /* MDRuntimePracticeController.m */,
 			);
 			name = Runtime;
+			sourceTree = "<group>";
+		};
+		E72D23592434C0CE00134688 /* DataStruct_book */ = {
+			isa = PBXGroup;
+			children = (
+				E7431A03243DCC44001380A3 /* DataStruct.hpp */,
+				E7431A02243DCC44001380A3 /* DataStruct.cpp */,
+			);
+			path = DataStruct_book;
+			sourceTree = "<group>";
+		};
+		E72D2363243632E500134688 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				E72D236E24364BC700134688 /* SingleList.hpp */,
+				E72D236D24364BC700134688 /* SingleList.cpp */,
+				E730B90C24389AC3007AC31C /* algorithm_offer.hpp */,
+				E730B90B24389AC3007AC31C /* algorithm_offer.cpp */,
+				E7F999362439688B0050449E /* BinaryTree.hpp */,
+				E7F999352439688B0050449E /* BinaryTree.cpp */,
+				E7F99939243B6C300050449E /* Sort_Find_Algorithm.hpp */,
+				E7F99938243B6C300050449E /* Sort_Find_Algorithm.cpp */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 		E72D9D371F9DC16A007258EB /* lib  */ = {
@@ -1048,6 +1067,16 @@
 			path = common;
 			sourceTree = "<group>";
 		};
+		E730B90424389939007AC31C /* TestC++ */ = {
+			isa = PBXGroup;
+			children = (
+				E72D2363243632E500134688 /* Algorithm */,
+				E72D23592434C0CE00134688 /* DataStruct_book */,
+				E730B90524389939007AC31C /* main.cpp */,
+			);
+			path = "TestC++";
+			sourceTree = "<group>";
+		};
 		E7349E53242C508D00AC6800 /* iOS_13_adpater */ = {
 			isa = PBXGroup;
 			children = (
@@ -1057,12 +1086,15 @@
 			name = iOS_13_adpater;
 			sourceTree = "<group>";
 		};
-		E738033C242DDE27001CED05 /* TestCAndC++ */ = {
+		E737CC2E24486EA0000DE2F7 /* IM_sample */ = {
 			isa = PBXGroup;
 			children = (
-				E738033D242DDE27001CED05 /* main.m */,
+				E737CC2F24486EC8000DE2F7 /* MDSocketClient_001.h */,
+				E737CC3024486EC8000DE2F7 /* MDSocketClient_001.m */,
+				E737CC32244957AF000DE2F7 /* MDGCDAsyncSocketController.h */,
+				E737CC33244957AF000DE2F7 /* MDGCDAsyncSocketController.m */,
 			);
-			path = "TestCAndC++";
+			name = IM_sample;
 			sourceTree = "<group>";
 		};
 		E7476B172341ADA500DDBF22 /* Metal_sample */ = {
@@ -1183,6 +1215,17 @@
 				E7AAD4D82046C37E0039121A /* Shader3_6.vsh */,
 			);
 			name = openGL_book_shaders;
+			sourceTree = "<group>";
+		};
+		E76A773F24443D6C00F93417 /* notification_extend */ = {
+			isa = PBXGroup;
+			children = (
+				E76A774024443D8800F93417 /* GYNotificationCenter.h */,
+				E76A774124443D8800F93417 /* GYNotificationCenter.m */,
+				E76A774224443D8800F93417 /* GYNotificationOberverIdentifer.h */,
+				E76A774324443D8900F93417 /* GYNotificationOberverIdentifer.m */,
+			);
+			name = notification_extend;
 			sourceTree = "<group>";
 		};
 		E772E1E32338AEE100C4DD6D /* ARKit_sample */ = {
@@ -1446,30 +1489,30 @@
 		E782632F24220C5E00D42A91 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				E782633024220C5E00D42A91 /* YYWeakProxy.m */,
-				E782633124220C5E00D42A91 /* YYAsyncLayer.m */,
-				E782633224220C5E00D42A91 /* YYKeychain.h */,
-				E782633324220C5E00D42A91 /* YYDispatchQueuePool.h */,
-				E782633424220C5E00D42A91 /* YYTransaction.h */,
-				E782633524220C5E00D42A91 /* YYThreadSafeDictionary.m */,
-				E782633624220C5E00D42A91 /* YYFileHash.h */,
-				E782633724220C5E00D42A91 /* YYGestureRecognizer.h */,
-				E782633824220C5E00D42A91 /* YYSentinel.m */,
-				E782633924220C5E00D42A91 /* YYReachability.h */,
-				E782633A24220C5E00D42A91 /* YYThreadSafeArray.h */,
-				E782633B24220C5E00D42A91 /* YYTimer.h */,
 				E782633C24220C5E00D42A91 /* YYAsyncLayer.h */,
-				E782633D24220C5E00D42A91 /* YYWeakProxy.h */,
-				E782633E24220C5E00D42A91 /* YYThreadSafeDictionary.h */,
-				E782633F24220C5E00D42A91 /* YYTransaction.m */,
+				E782633124220C5E00D42A91 /* YYAsyncLayer.m */,
+				E782633324220C5E00D42A91 /* YYDispatchQueuePool.h */,
 				E782634024220C5E00D42A91 /* YYDispatchQueuePool.m */,
-				E782634124220C5E00D42A91 /* YYKeychain.m */,
-				E782634224220C5E00D42A91 /* YYGestureRecognizer.m */,
+				E782633624220C5E00D42A91 /* YYFileHash.h */,
 				E782634324220C5E00D42A91 /* YYFileHash.m */,
-				E782634424220C5E00D42A91 /* YYTimer.m */,
-				E782634524220C5E00D42A91 /* YYThreadSafeArray.m */,
+				E782633724220C5E00D42A91 /* YYGestureRecognizer.h */,
+				E782634224220C5E00D42A91 /* YYGestureRecognizer.m */,
+				E782633224220C5E00D42A91 /* YYKeychain.h */,
+				E782634124220C5E00D42A91 /* YYKeychain.m */,
+				E782633924220C5E00D42A91 /* YYReachability.h */,
 				E782634624220C5E00D42A91 /* YYReachability.m */,
 				E782634724220C5E00D42A91 /* YYSentinel.h */,
+				E782633824220C5E00D42A91 /* YYSentinel.m */,
+				E782633A24220C5E00D42A91 /* YYThreadSafeArray.h */,
+				E782634524220C5E00D42A91 /* YYThreadSafeArray.m */,
+				E782633E24220C5E00D42A91 /* YYThreadSafeDictionary.h */,
+				E782633524220C5E00D42A91 /* YYThreadSafeDictionary.m */,
+				E782633B24220C5E00D42A91 /* YYTimer.h */,
+				E782634424220C5E00D42A91 /* YYTimer.m */,
+				E782633424220C5E00D42A91 /* YYTransaction.h */,
+				E782633F24220C5E00D42A91 /* YYTransaction.m */,
+				E782633D24220C5E00D42A91 /* YYWeakProxy.h */,
+				E782633024220C5E00D42A91 /* YYWeakProxy.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -1480,7 +1523,7 @@
 				E78E784F1F8F0DD10051CDCA /* openGL_ES2.0_practice */,
 				E78E78691F8F0DD10051CDCA /* openGL_ES2.0_practiceTests */,
 				E78E78741F8F0DD10051CDCA /* openGL_ES2.0_practiceUITests */,
-				E738033C242DDE27001CED05 /* TestCAndC++ */,
+				E730B90424389939007AC31C /* TestC++ */,
 				E78E784E1F8F0DD10051CDCA /* Products */,
 				31679E2F8D31413A53C2A760 /* Pods */,
 				AAF0DBB70B530DCDF35A0D8C /* Frameworks */,
@@ -1491,9 +1534,7 @@
 			isa = PBXGroup;
 			children = (
 				E78E784D1F8F0DD10051CDCA /* openGL_ES2.0_practice.app */,
-				E78E78661F8F0DD10051CDCA /* openGL_ES2.0_practiceTests.xctest */,
-				E78E78711F8F0DD10051CDCA /* openGL_ES2.0_practiceUITests.xctest */,
-				E738033B242DDE27001CED05 /* TestCAndC++ */,
+				E730B90324389939007AC31C /* TestC++ */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1542,6 +1583,7 @@
 		E78E78861F8F0E5F0051CDCA /* sample */ = {
 			isa = PBXGroup;
 			children = (
+				E737CC2E24486EA0000DE2F7 /* IM_sample */,
 				E782629224220B2000D42A91 /* YYKit_sample */,
 				E7476C92234D844B00DDBF22 /* SourceCode_sample */,
 				E7476B172341ADA500DDBF22 /* Metal_sample */,
@@ -1584,6 +1626,8 @@
 				E7476C90234D840100DDBF22 /* MDSourceCodeBaseController.m */,
 				E782628F24220AB000D42A91 /* MDYYKitBaseViewController.h */,
 				E782629024220AB000D42A91 /* MDYYKitBaseViewController.m */,
+				E737CC2B24486E0E000DE2F7 /* MDIMBaseViewController.h */,
+				E737CC2C24486E0E000DE2F7 /* MDIMBaseViewController.m */,
 			);
 			name = base;
 			sourceTree = "<group>";
@@ -1639,6 +1683,7 @@
 		E78E78A71F8F69980051CDCA /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				E76A773F24443D6C00F93417 /* notification_extend */,
 				E7349E53242C508D00AC6800 /* iOS_13_adpater */,
 				E782629724220C5D00D42A91 /* YYKit */,
 				E7DE91F92123CB0A00960AA5 /* normal_util */,
@@ -1923,21 +1968,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E738033A242DDE27001CED05 /* TestCAndC++ */ = {
+		E730B90224389939007AC31C /* TestC++ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7380341242DDE27001CED05 /* Build configuration list for PBXNativeTarget "TestCAndC++" */;
+			buildConfigurationList = E730B90724389939007AC31C /* Build configuration list for PBXNativeTarget "TestC++" */;
 			buildPhases = (
-				E7380337242DDE27001CED05 /* Sources */,
-				E7380338242DDE27001CED05 /* Frameworks */,
-				E7380339242DDE27001CED05 /* CopyFiles */,
+				E730B8FF24389939007AC31C /* Sources */,
+				E730B90024389939007AC31C /* Frameworks */,
+				E730B90124389939007AC31C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "TestCAndC++";
-			productName = "TestCAndC++";
-			productReference = E738033B242DDE27001CED05 /* TestCAndC++ */;
+			name = "TestC++";
+			productName = "TestC++";
+			productReference = E730B90324389939007AC31C /* TestC++ */;
 			productType = "com.apple.product-type.tool";
 		};
 		E78E784C1F8F0DD10051CDCA /* openGL_ES2.0_practice */ = {
@@ -1959,42 +2004,6 @@
 			productReference = E78E784D1F8F0DD10051CDCA /* openGL_ES2.0_practice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E78E78651F8F0DD10051CDCA /* openGL_ES2.0_practiceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E78E787D1F8F0DD10051CDCA /* Build configuration list for PBXNativeTarget "openGL_ES2.0_practiceTests" */;
-			buildPhases = (
-				E78E78621F8F0DD10051CDCA /* Sources */,
-				E78E78631F8F0DD10051CDCA /* Frameworks */,
-				E78E78641F8F0DD10051CDCA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E78E78681F8F0DD10051CDCA /* PBXTargetDependency */,
-			);
-			name = openGL_ES2.0_practiceTests;
-			productName = openGL_ES2.0_practiceTests;
-			productReference = E78E78661F8F0DD10051CDCA /* openGL_ES2.0_practiceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E78E78701F8F0DD10051CDCA /* openGL_ES2.0_practiceUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E78E78801F8F0DD10051CDCA /* Build configuration list for PBXNativeTarget "openGL_ES2.0_practiceUITests" */;
-			buildPhases = (
-				E78E786D1F8F0DD10051CDCA /* Sources */,
-				E78E786E1F8F0DD10051CDCA /* Frameworks */,
-				E78E786F1F8F0DD10051CDCA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E78E78731F8F0DD10051CDCA /* PBXTargetDependency */,
-			);
-			name = openGL_ES2.0_practiceUITests;
-			productName = openGL_ES2.0_practiceUITests;
-			productReference = E78E78711F8F0DD10051CDCA /* openGL_ES2.0_practiceUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2004,27 +2013,15 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "符吉胜";
 				TargetAttributes = {
-					E738033A242DDE27001CED05 = {
+					E730B90224389939007AC31C = {
 						CreatedOnToolsVersion = 11.3;
 						DevelopmentTeam = 9BAH5VU2BZ;
 						ProvisioningStyle = Automatic;
 					};
 					E78E784C1F8F0DD10051CDCA = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = DDPY9JD4B3;
+						DevelopmentTeam = 9BAH5VU2BZ;
 						ProvisioningStyle = Automatic;
-					};
-					E78E78651F8F0DD10051CDCA = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 36WT396TPZ;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E78E784C1F8F0DD10051CDCA;
-					};
-					E78E78701F8F0DD10051CDCA = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 36WT396TPZ;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E78E784C1F8F0DD10051CDCA;
 					};
 				};
 			};
@@ -2043,9 +2040,7 @@
 			projectRoot = "";
 			targets = (
 				E78E784C1F8F0DD10051CDCA /* openGL_ES2.0_practice */,
-				E78E78651F8F0DD10051CDCA /* openGL_ES2.0_practiceTests */,
-				E78E78701F8F0DD10051CDCA /* openGL_ES2.0_practiceUITests */,
-				E738033A242DDE27001CED05 /* TestCAndC++ */,
+				E730B90224389939007AC31C /* TestC++ */,
 			);
 		};
 /* End PBXProject section */
@@ -2084,20 +2079,6 @@
 				E78E785B1F8F0DD10051CDCA /* Main.storyboard in Resources */,
 				E7C1628E1F9458F9008C0027 /* Green.png in Resources */,
 				E7BDD5462046530B00FE63FB /* LightingDetail256x256.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E78E78641F8F0DD10051CDCA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E78E786F1F8F0DD10051CDCA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2151,11 +2132,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E7380337242DDE27001CED05 /* Sources */ = {
+		E730B8FF24389939007AC31C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E738033E242DDE27001CED05 /* main.m in Sources */,
+				E7431A04243DCC44001380A3 /* DataStruct.cpp in Sources */,
+				E7F9993A243B6C300050449E /* Sort_Find_Algorithm.cpp in Sources */,
+				E7F999372439688B0050449E /* BinaryTree.cpp in Sources */,
+				E730B90D24389AC3007AC31C /* algorithm_offer.cpp in Sources */,
+				E730B90624389939007AC31C /* main.cpp in Sources */,
+				E730B90A2438994C007AC31C /* SingleList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2169,6 +2155,7 @@
 				E74997BA213641B900B339D1 /* MDMediaPushController.m in Sources */,
 				E782638D24220C5E00D42A91 /* YYWeakProxy.m in Sources */,
 				E78E78A21F8F62E40051CDCA /* MDLearnView_003.m in Sources */,
+				E737CC3124486EC8000DE2F7 /* MDSocketClient_001.m in Sources */,
 				E782637424220C5E00D42A91 /* UITableView+YYAdd.m in Sources */,
 				E782635624220C5E00D42A91 /* CALayer+YYWebImage.m in Sources */,
 				E782636124220C5E00D42A91 /* YYTextLine.m in Sources */,
@@ -2222,6 +2209,7 @@
 				E72E7E4E2249004400095789 /* aw_array.c in Sources */,
 				E72E7E4D2249004400095789 /* aw_dict.c in Sources */,
 				E782638424220C5E00D42A91 /* NSTimer+YYAdd.m in Sources */,
+				E76A774424443D8900F93417 /* GYNotificationCenter.m in Sources */,
 				E75B7DAC1F9B8B67000C77C2 /* MDGPUImage_008.m in Sources */,
 				E72E7E432249004300095789 /* aw_sw_x264_encoder.c in Sources */,
 				E74134CE1F99F31B00D49E69 /* MDGPUimage_005.m in Sources */,
@@ -2232,6 +2220,7 @@
 				E72E7E4A2249004400095789 /* aw_thread_poll.c in Sources */,
 				E782637124220C5E00D42A91 /* UIColor+YYAdd.m in Sources */,
 				E782636224220C5E00D42A91 /* YYTextSelectionView.m in Sources */,
+				E76A774524443D8900F93417 /* GYNotificationOberverIdentifer.m in Sources */,
 				E7DE9285212678DB00960AA5 /* AWEncoder.m in Sources */,
 				E75FFE5F1F9A116C0064410A /* MDGPUImage_007.m in Sources */,
 				E782636D24220C5E00D42A91 /* YYTextArchiver.m in Sources */,
@@ -2299,6 +2288,7 @@
 				E782635A24220C5E00D42A91 /* YYClassInfo.m in Sources */,
 				E7476C9C234D8B0800DDBF22 /* ViewControllerAModule.m in Sources */,
 				E72E7E462249004300095789 /* aw_faac.c in Sources */,
+				E737CC34244957AF000DE2F7 /* MDGCDAsyncSocketController.m in Sources */,
 				E782635F24220C5E00D42A91 /* YYTextInput.m in Sources */,
 				E7349E56242C50CD00AC6800 /* UIViewController+FixPresent.m in Sources */,
 				E7AAD4CE20468FFD0039121A /* OpenGLES_ch3_2.m in Sources */,
@@ -2309,6 +2299,7 @@
 				E7DE9288212678E900960AA5 /* AWVideoEncoder.m in Sources */,
 				E7C1627E1F9457A5008C0027 /* MDPaintingView.m in Sources */,
 				E7C162851F9458DC008C0027 /* fileUtil.m in Sources */,
+				E737CC2D24486E0E000DE2F7 /* MDIMBaseViewController.m in Sources */,
 				E7138DF21F97257D00D5A2B5 /* MDGPUImage_002.m in Sources */,
 				E7FFC8AA1F94DDEC00D86470 /* MDGPUImageBaseController.m in Sources */,
 				E782637224220C5E00D42A91 /* UIDevice+YYAdd.m in Sources */,
@@ -2343,36 +2334,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E78E78621F8F0DD10051CDCA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E78E786B1F8F0DD10051CDCA /* openGL_ES2_0_practiceTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E78E786D1F8F0DD10051CDCA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E78E78761F8F0DD10051CDCA /* openGL_ES2_0_practiceUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E78E78681F8F0DD10051CDCA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E78E784C1F8F0DD10051CDCA /* openGL_ES2.0_practice */;
-			targetProxy = E78E78671F8F0DD10051CDCA /* PBXContainerItemProxy */;
-		};
-		E78E78731F8F0DD10051CDCA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E78E784C1F8F0DD10051CDCA /* openGL_ES2.0_practice */;
-			targetProxy = E78E78721F8F0DD10051CDCA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E78E78591F8F0DD10051CDCA /* Main.storyboard */ = {
@@ -2394,7 +2356,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E738033F242DDE27001CED05 /* Debug */ = {
+		E730B90824389939007AC31C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -2421,7 +2383,7 @@
 			};
 			name = Debug;
 		};
-		E7380340242DDE27001CED05 /* Release */ = {
+		E730B90924389939007AC31C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -2540,7 +2502,10 @@
 			baseConfigurationReference = A800D762BA549E6B97553D4A /* Pods-openGL_ES2.0_practice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DDPY9JD4B3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BAH5VU2BZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2566,8 +2531,9 @@
 					"$(PROJECT_DIR)/openGL_ES2.0_practice/libfaac/lib",
 					"$(PROJECT_DIR)/openGL_ES2.0_practice/libyuv/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "momo.openGL-ES2-0-practice1";
+				PRODUCT_BUNDLE_IDENTIFIER = "momo.openGL-ES2-0-practice222";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -2576,7 +2542,9 @@
 			baseConfigurationReference = C9523FBBB66C19E208DCC5E9 /* Pods-openGL_ES2.0_practice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DDPY9JD4B3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BAH5VU2BZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2602,69 +2570,20 @@
 					"$(PROJECT_DIR)/openGL_ES2.0_practice/libfaac/lib",
 					"$(PROJECT_DIR)/openGL_ES2.0_practice/libyuv/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "momo.openGL-ES2-0-practice1";
+				PRODUCT_BUNDLE_IDENTIFIER = "momo.openGL-ES2-0-practice222";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		E78E787E1F8F0DD10051CDCA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 36WT396TPZ;
-				INFOPLIST_FILE = openGL_ES2.0_practiceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "momo.openGL-ES2-0-practiceTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openGL_ES2.0_practice.app/openGL_ES2.0_practice";
-			};
-			name = Debug;
-		};
-		E78E787F1F8F0DD10051CDCA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 36WT396TPZ;
-				INFOPLIST_FILE = openGL_ES2.0_practiceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "momo.openGL-ES2-0-practiceTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openGL_ES2.0_practice.app/openGL_ES2.0_practice";
-			};
-			name = Release;
-		};
-		E78E78811F8F0DD10051CDCA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 36WT396TPZ;
-				INFOPLIST_FILE = openGL_ES2.0_practiceUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "momo.openGL-ES2-0-practiceUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = openGL_ES2.0_practice;
-			};
-			name = Debug;
-		};
-		E78E78821F8F0DD10051CDCA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 36WT396TPZ;
-				INFOPLIST_FILE = openGL_ES2.0_practiceUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "momo.openGL-ES2-0-practiceUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = openGL_ES2.0_practice;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E7380341242DDE27001CED05 /* Build configuration list for PBXNativeTarget "TestCAndC++" */ = {
+		E730B90724389939007AC31C /* Build configuration list for PBXNativeTarget "TestC++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E738033F242DDE27001CED05 /* Debug */,
-				E7380340242DDE27001CED05 /* Release */,
+				E730B90824389939007AC31C /* Debug */,
+				E730B90924389939007AC31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2683,24 +2602,6 @@
 			buildConfigurations = (
 				E78E787B1F8F0DD10051CDCA /* Debug */,
 				E78E787C1F8F0DD10051CDCA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E78E787D1F8F0DD10051CDCA /* Build configuration list for PBXNativeTarget "openGL_ES2.0_practiceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E78E787E1F8F0DD10051CDCA /* Debug */,
-				E78E787F1F8F0DD10051CDCA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E78E78801F8F0DD10051CDCA /* Build configuration list for PBXNativeTarget "openGL_ES2.0_practiceUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E78E78811F8F0DD10051CDCA /* Debug */,
-				E78E78821F8F0DD10051CDCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -190,7 +190,7 @@ static NSString *sRtmpUrl = @"rtmp://192.168.1.135:1935/live/test";
     }
 }
 
--(void) onStartClick{
+-(void)onStartClick{
     if (self.avCapture.isCapturing) {
         [self.startBtn setTitle:@"开始直播" forState:UIControlStateNormal];
         [self.avCapture stopCapture];
@@ -201,7 +201,7 @@ static NSString *sRtmpUrl = @"rtmp://192.168.1.135:1935/live/test";
     }
 }
 
--(void) onSwitchClick{
+-(void)onSwitchClick{
     [self.avCapture switchCamera];
 }
 

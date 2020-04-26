@@ -21,8 +21,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
 //    [self testBackThreadExecute];
-//    [self testBlockVar];
-    [self testDispatch_apply];
+    [self testBlockVar];
+//    [self testDispatch_apply];
 }
 
 - (void)testBlockVar {

@@ -16,6 +16,8 @@
 #import "MDMetalBaseController.h"
 #import "MDSourceCodeBaseController.h"
 #import "MDYYKitBaseViewController.h"
+#import "MDIMBaseViewController.h"
+#import <objc/runtime.h>
 
 const static NSString * const kClassName = @"kClassName";
 const static NSString * const kTitleName = @"kTitleName";
@@ -88,6 +90,10 @@ const static NSString * const kTitleName = @"kTitleName";
     [dict9 setObject:@"MDYYKitBaseViewController" forKey:kClassName];
     [dict9 setObject:@"YYKit练习" forKey:kTitleName];
     
+    NSMutableDictionary *dict10 = [NSMutableDictionary dictionary];
+    [dict10 setObject:@"MDIMBaseViewController" forKey:kClassName];
+    [dict10 setObject:@"IM即时通信练习" forKey:kTitleName];
+    
     [self.datas addObject:dict1];
     [self.datas addObject:dict2];
     [self.datas addObject:dict3];
@@ -97,6 +103,10 @@ const static NSString * const kTitleName = @"kTitleName";
     [self.datas addObject:dict7];
     [self.datas addObject:dict8];
     [self.datas addObject:dict9];
+    [self.datas addObject:dict10];
+    
+    NSArray *tempArray = [self.datas copy];
+    NSLog(@"first : %@, second: %@", self.datas.firstObject, tempArray.firstObject);
 
     [self.tableView reloadData];
 }
@@ -129,6 +139,28 @@ const static NSString * const kTitleName = @"kTitleName";
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:selectedCtr];
     [self presentViewController:navController animated:YES completion:nil];
+}
+
+#pragma mark - simple test
+- (void)testDispatch_barrier {
+    dispatch_queue_t concurrentQueue = dispatch_queue_create("test", DISPATCH_QUEUE_CONCURRENT);
+    for (int i = 0; i < 1; ++i) {
+        dispatch_async(concurrentQueue, ^{
+            NSLog(@"first -- %d", i);
+        });
+    }
+    
+    dispatch_barrier_async(concurrentQueue, ^{
+        for (int i = 0; i < 109; ++i) {
+            NSLog(@"barrier -- %d", i);
+        }
+    });
+    
+    for (int i = 10; i < 11; ++i) {
+        dispatch_async(concurrentQueue, ^{
+            NSLog(@"second -- %d", i);
+        });
+    }
 }
 
 @end
